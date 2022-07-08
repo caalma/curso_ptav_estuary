@@ -151,6 +151,20 @@ Minitidal
 ## Formatos de video
 
 
+### gif
+
+CineCer0
+
+	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test.gif"
+
+Hydra
+
+	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test.gif"); src(s0).out();
+
+	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/videos/test.gif"); src(s0).out();
+
+
+
 ### mov
 
 CineCer0
