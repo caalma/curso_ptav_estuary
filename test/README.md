@@ -22,18 +22,21 @@ sO0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.jp
 ### pdf
 
 CineCer0
-
-	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.pdf"
+``
+image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.pdf"
+``
 
 Hydra
-
-	sO0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.pdf");src(s0).out();
+``
+sO0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.pdf");src(s0).out();
+``
 
 ### png
 
 CineCer0
-
-	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.png"
+``
+image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.png"
+``
 
 Hydra
 
