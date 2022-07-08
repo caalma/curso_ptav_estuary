@@ -1,0 +1,7 @@
+[
+    { "url":"test.aiff", "type":"audio", "bank":"testaiff", "n":0 },
+    { "url":"test.flac", "type":"audio", "bank":"testflac", "n":0 },
+    { "url":"test.m4a", "type":"audio", "bank":"testm4a", "n":0 },
+    { "url":"test.mp3", "type":"audio", "bank":"testmp3", "n":0 },
+    { "url":"test.wav", "type":"audio", "bank":"testwav", "n":0 }
+]
