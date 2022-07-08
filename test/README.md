@@ -47,7 +47,7 @@ CineCer0 - **SI**
 
 Hydra - **SI**
 
-Nota: No reconoció la transparencia.
+Pero, no reconoció la transparencia.
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.png");src(s0).out()
 
@@ -88,7 +88,7 @@ Hydra - **SI**
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.webp");src(s0).out()
 
 
-No muestra la transparencia.
+Pero, no muestra la transparencia.
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test_alpha.webp");src(s0).out()
 
@@ -117,42 +117,42 @@ Importar los samples desde el input de consola en Estuary:
 
 ### wav
 
-Minitidal
+Minitidal - **SI**
 
 	s "testwav"
 
 
 ### aiff
 
-Minitidal
+Minitidal - **NO**
 
 	s "testaiff"
 
 
 ### flac
 
-Minitidal
+Minitidal - **SI**
 
 	s "testflac"
 
 
 ### mp3
 
-Minitidal
+Minitidal - **SI**
 
 	s "testmp3"
 
 
 ### m4a
 
-Minitidal
+Minitidal - **SI**
 
 	s "testm4a"
 
 
 ### ogg
 
-Minitidal
+Minitidal - **NO**
 
 	s "testogg"
 
@@ -176,11 +176,11 @@ Hydra - **SI**
 	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test.mov");src(s0).out()
 
 
-### mov con alpha
+### mov (con alpha)
 
 Encoder: Lavf58.29.100
 
-CineCer0 - **??**
+CineCer0 - **NO**
 
 	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test_alpha.mov"
 
@@ -233,13 +233,13 @@ Hydra - **SI**
 
 Encoder: Lavf58.29.100 libvpx-vp9
 
-CineCer0 - **??**
+CineCer0 - **SI**
 
-	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test.webm"
+	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test_alpha.webm"
 
-Hydra - **??**
+Hydra - **SI**
 
-	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test.webm");src(s0).out()
+	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test_alpha.webm");src(s0).out()
 
 
 ### avi
@@ -254,18 +254,6 @@ Hydra - **NO**
 
 	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test.avi");src(s0).out()
 
-
-### avi (con alpha)
-
-Encoder: Lavf58.29.100
-
-CineCer0 - **??**
-
-	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test_alpha.avi"
-
-Hydra - **??**
-
-	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test_alpha.avi");src(s0).out()
 
 
 ### ogg
