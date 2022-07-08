@@ -92,15 +92,16 @@ CineCer0 - **SI**
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.webp"
 
-Hydra - **SI**
+	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test_alpha.webp"
 
-Falla "algo" en la transparencia.
+
+Hydra - **SI**
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.webp");src(s0).out()
 
-!!!!
+Falla "algo" en la transparencia.
 
-	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test_2.webp");src(s0).out()
+	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test_alpha.webp");src(s0).out()
 
 
 ### gif
