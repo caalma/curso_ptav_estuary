@@ -51,10 +51,6 @@ Nota: No reconoció la transparencia.
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.png");src(s0).out()
 
-!!!!
-
-	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test_2.png");src(s0).out()
-
 
 ### svg
 
@@ -73,17 +69,9 @@ CineCer0 - **NO**
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.tiff"
 
-!!!!
-
-	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test_2.tiff"
-
 Hydra - **NO**
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.tiff");src(s0).out()
-
-!!!!
-
-	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test_2.tiff");src(s0).out()
 
 
 ### webp
@@ -99,7 +87,8 @@ Hydra - **SI**
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.webp");src(s0).out()
 
-Falla "algo" en la transparencia.
+
+No muestra la transparencia.
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test_alpha.webp");src(s0).out()
 
