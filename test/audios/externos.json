@@ -1,0 +1,16 @@
+[
+    { "type":"audio", "bank":"testpodcastmp3", "n":0, "url":"https://venganzasdelpasado.com.ar/2022/lvstsp-2022-07-06.mp3" },
+    { "type":"audio", "bank":"testpodcastmp3", "n":1, "url":"https://traffic.omny.fm/d/clips/2446592a-b80e-4d28-a4fd-ae4c0140ac11/b4c11f61-828f-4d49-81c5-aea701274943/c0e09819-f554-403f-ad39-aecb00936987/audio.mp3?dist=podium-web-tfp&dl=1" },
+    { "type":"audio", "bank":"testpodcastmp3", "n":2, "url":"https://traffic.omny.fm/d/clips/2446592a-b80e-4d28-a4fd-ae4c0140ac11/b4c11f61-828f-4d49-81c5-aea701274943/c0e09819-f554-403f-ad39-aecb00936987/audio.mp3?dist=podium-web-tfp&dl=0" },
+
+    { "type":"audio", "bank":"testradioaac", "n":0, "url":"https://streaming.radiosenlinea.com.ar/8408/stream" },
+
+    { "type":"audio", "bank":"testradiovorbis", "n":0, "url":"https://streaming.radiosenlinea.com.ar/8408/stream" },
+
+    { "type":"audio", "bank":"testwikimediaflac", "n":0, "url":"https://upload.wikimedia.org/wikipedia/commons/4/4f/BioAcoustica_593_9_Acherontis_styx_822r9.flac" },
+
+    { "type":"audio", "bank":"testwikimediaogg", "n":0, "url":"https://upload.wikimedia.org/wikipedia/commons/4/42/MozartTurkishThemeFromViolinConcertoNo5.ogg" },
+
+    { "type":"audio", "bank":"testwikimediaoga", "n":0, "url":"https://upload.wikimedia.org/wikipedia/commons/c/ce/A-window-into-the-brain-mechanisms-associated-with-noise-sensitivity-srep39236-s2.oga" },
+    { "type":"audio", "bank":"testwikimediaoga", "n":1, "url":"https://upload.wikimedia.org/wikipedia/commons/b/b7/Acoustic-and-Categorical-Dissimilarity-of-Musical-Timbre-Evidence-from-Asymmetries-Between-Acoustic-Audio1.oga" },
+]
