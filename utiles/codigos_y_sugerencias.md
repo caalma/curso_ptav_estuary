@@ -20,7 +20,12 @@
 
 
 ## Obtener las característica de todos los audios/videos desde la carpeta actual
+
 	AT=/tmp/x; for AU in $(find -type f); do ffprobe $AU 2> $AT && grep 'Stream' $AT;done > tipos_de_samples.txt
+
+## Actualización con Git para Github
+
+	Gr='./'; Gm="Ajuste de contenido"; git add $Gr && git commit -m $Gm && git push
 
 
 ## Generar videos transparentes con kdenlive
