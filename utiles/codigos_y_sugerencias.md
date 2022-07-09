@@ -25,7 +25,7 @@
 
 ## Actualización con Git para Github
 
-	Gr='./'; Gm="Ajuste de contenido"; git add $Gr && git commit -m $Gm && git push
+	Gr="./utiles/"; Gm="Ajuste de contenido"; git add "$Gr" && git commit -m "$Gm" && git push
 
 
 ## Generar videos transparentes con kdenlive
