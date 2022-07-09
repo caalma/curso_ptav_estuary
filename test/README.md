@@ -4,119 +4,142 @@
 
 ---
 
-|     | CineCer0 | Hydra |
-|:----|:--------:|:-----:|
-|bmp  | si       | si    |
-|ico  | si       | si    |
-|jpg  | si       | si    |
-|png  | si       | si    |
-|svg  | si       | si    |
-|tiff | no       | no    |
-|webp | si       | si    |
-|gif  | si       | si    |
+## Referencias Rápidas
+
+| IMAGEN | CineCer0 | Hydra | Notas |
+|:-------|:--------:|:-----:|:------|
+| bmp    | si       | si    | |
+| gif    | si       | si    | |
+| ico    | si       | si    | |
+| jpg    | si       | si    | |
+| png    | si       | si    | En Hydra no muestra la transparencia correctamente. |
+| svg    | si       | si    | |
+| tiff   | no       | no    | |
+| webp   | si       | si    | En Hydra no muestra la transparencia correctamente. |
+
+
+| AUDIO  | MiniTidal | Notas |
+|:-------|:---------:|:------|
+| aiff   | no        | |
+| flac   | si        | |
+| m4a    | si        | |
+| mp3    | si        | |
+| ogg    | no        | |
+| wav    | si        | |
+
+
+| VIDEO  | CineCer0 | Hydra | Notas |
+|:-------|:--------:|:-----:|:------|
+| avi    | no       | no    | |
+| mkv    | si       | si    | |
+| mov    | si       | si    | |
+| mp4    | si       | si    | |
+| ogg    | si       | si    | |
+| webm   | si       | si    | |
+
+
+| VIDEO con TRANSPARENCIA  | CineCer0 | Hydra | Notas |
+|:-------------------------|:--------:|:-----:|:------|
+| mov    | no       | ??    | |
+| webm   | si       | si    | |
 
 
 ---
 
 
-## Formatos de imagen
+## Códigos de las pruebas para IMÁGENES
 
 
 ### bmp
 
-CineCer0 - **SI**
+CineCer0
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.bmp"
 
-Hydra - **SI**
+Hydra
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.bmp");src(s0).out()
 
 
 ### ico
 
-CineCer0 - **SI**
+CineCer0
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.ico"
 
-Hydra - **SI**
+Hydra
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.ico");src(s0).out()
 
 
 ### jpg
 
-CineCer0 - **SI**
+CineCer0
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.jpg"
 
-Hydra - **SI**
+Hydra
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.jpg");src(s0).out()
 
 
 ### png
 
-CineCer0 - **SI**
+CineCer0
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.png"
 
 
-Hydra - **SI**
-
-Pero, no reconoció la transparencia.
+Hydra
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.png");src(s0).out()
 
 
 ### svg
 
-CineCer0 - **SI**
+CineCer0
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.svg"
 
-Hydra - **SI**
+Hydra
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.svg");src(s0).out()
 
 
 ### tiff
 
-CineCer0 - **NO**
+CineCer0
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.tiff"
 
-Hydra - **NO**
+Hydra
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.tiff");src(s0).out()
 
 
 ### webp
 
-CineCer0 - **SI**
+CineCer0
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.webp"
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/imagenes/test_alpha.webp"
 
 
-Hydra - **SI**
+Hydra
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test.webp");src(s0).out()
-
-
-Pero, no muestra la transparencia.
 
 	s0.initImage("https://caalma.github.io/curso_ptav_estuary/test/imagenes/test_alpha.webp");src(s0).out()
 
 
 ### gif
 
-CineCer0 - **SI**
+CineCer0
 
 	image "https://caalma.github.io/curso_ptav_estuary/test/videos/test.gif"
 
-Hydra - **SI**
+Hydra
 
 Sólo muestra el primer fotograma, si es GIF Animado.
 
@@ -125,7 +148,8 @@ Sólo muestra el primer fotograma, si es GIF Animado.
 
 ---
 
-## Formatos de audio
+## Códigos de las pruebas para AUDIOS
+
 
 Importar los samples desde el input de consola en Estuary:
 
@@ -134,42 +158,42 @@ Importar los samples desde el input de consola en Estuary:
 
 ### wav
 
-Minitidal - **SI**
+Minitidal
 
 	s "testwav"
 
 
 ### aiff
 
-Minitidal - **NO**
+Minitidal
 
 	s "testaiff"
 
 
 ### flac
 
-Minitidal - **SI**
+Minitidal
 
 	s "testflac"
 
 
 ### mp3
 
-Minitidal - **SI**
+Minitidal
 
 	s "testmp3"
 
 
 ### m4a
 
-Minitidal - **SI**
+Minitidal
 
 	s "testm4a"
 
 
 ### ogg
 
-Minitidal - **NO**
+Minitidal
 
 	s "testogg"
 
@@ -177,18 +201,18 @@ Minitidal - **NO**
 ---
 
 
-## Formatos de video
+## Códigos de las pruebas para VIDEOS
 
 
 ### mov
 
 Encoder: Lavf58.29.100
 
-CineCer0 - **SI**
+CineCer0
 
 	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test.mov"
 
-Hydra - **SI**
+Hydra
 
 	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test.mov");src(s0).out()
 
@@ -197,11 +221,11 @@ Hydra - **SI**
 
 Encoder: Lavf58.29.100
 
-CineCer0 - **NO**
+CineCer0
 
 	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test_alpha.mov"
 
-Hydra - **??**
+Hydra
 
 	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test_alpha.mov");src(s0).out()
 
@@ -211,11 +235,11 @@ Hydra - **??**
 
 Encoder: Lavf58.29.100
 
-CineCer0 - **SI**
+CineCer0
 
 	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test.mp4"
 
-Hydra - **SI**
+Hydra
 
 	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test.mp4");src(s0).out()
 
@@ -224,11 +248,11 @@ Hydra - **SI**
 
 Encoder: Lavc58.54.100 libx264
 
-CineCer0 - **SI**
+CineCer0
 
 	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test.mkv"
 
-Hydra - **SI**
+Hydra
 
 	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test.mkv");src(s0).out()
 
@@ -237,11 +261,11 @@ Hydra - **SI**
 
 Encoder: Lavc58.54.100 libvpx-vp9
 
-CineCer0 - **SI**
+CineCer0
 
 	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test.webm"
 
-Hydra - **SI**
+Hydra
 
 	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test.webm");src(s0).out()
 
@@ -250,11 +274,11 @@ Hydra - **SI**
 
 Encoder: Lavf58.29.100 libvpx-vp9
 
-CineCer0 - **SI**
+CineCer0
 
 	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test_alpha.webm"
 
-Hydra - **SI**
+Hydra
 
 	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test_alpha.webm");src(s0).out()
 
@@ -263,11 +287,11 @@ Hydra - **SI**
 
 Encoder: Lavf58.29.100
 
-CineCer0 - **NO**
+CineCer0
 
 	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test.avi"
 
-Hydra - **NO**
+Hydra
 
 	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test.avi");src(s0).out()
 
@@ -277,10 +301,10 @@ Hydra - **NO**
 
 Encoder: Lavc58.54.100 libtheora
 
-CineCer0 - **SI**
+CineCer0
 
 	video "https://caalma.github.io/curso_ptav_estuary/test/videos/test.ogg"
 
-Hydra - **SI**
+Hydra
 
 	s0.initVideo("https://caalma.github.io/curso_ptav_estuary/test/videos/test.ogg");src(s0).out()
