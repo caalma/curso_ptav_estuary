@@ -1,6 +1,23 @@
 # Testeo de formatos multimedia
 
+
+
 ---
+
+|     | CineCer0 | Hydra |
+|:----|:--------:|:-----:|
+|bmp  | si       | si    |
+|ico  | si       | si    |
+|jpg  | si       | si    |
+|png  | si       | si    |
+|svg  | si       | si    |
+|tiff | no       | no    |
+|webp | si       | si    |
+|gif  | si       | si    |
+
+
+---
+
 
 ## Formatos de imagen
 
