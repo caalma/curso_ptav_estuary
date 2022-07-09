@@ -1,5 +1,5 @@
 # Compilado de utilidades
 
-Necesarias para automatizar la edición de listas, json, normalización de audios, generación de videos.
+> Estos utilidades solamente fueron testeadas y usadas en GNU/Linux Mint. Actualmente no se están indicando requerimientos. Posiblemente requieran modificación para utilizar en otro sistema operativo.
 
-> Estos comandos solamente fueron testeados en GNU/Linux Mint.
+Necesarias para automatizar la edición de listas, json, normalización de audios, generación de videos.
