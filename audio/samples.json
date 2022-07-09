@@ -1,0 +1,386 @@
+[
+    {
+        "type": "audio",
+        "bank": "piedra",
+        "n": 0,
+        "url": "piedra/piedra_01.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "piedra",
+        "n": 1,
+        "url": "piedra/piedra_02.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "crack",
+        "n": 0,
+        "url": "crack/crack_01.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "crack",
+        "n": 1,
+        "url": "crack/crack_02.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "crack",
+        "n": 2,
+        "url": "crack/crack_03.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "crack",
+        "n": 3,
+        "url": "crack/crack_04.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "bolita",
+        "n": 0,
+        "url": "bolita/bolita_01.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "bolita",
+        "n": 1,
+        "url": "bolita/bolita_02.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "metal",
+        "n": 0,
+        "url": "metal/metal_001.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "metal",
+        "n": 1,
+        "url": "metal/metal_002.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "metal",
+        "n": 2,
+        "url": "metal/metal_003.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "metal",
+        "n": 3,
+        "url": "metal/metal_004.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "metal",
+        "n": 4,
+        "url": "metal/metal_005.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "metal",
+        "n": 5,
+        "url": "metal/metal_006.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "metal",
+        "n": 6,
+        "url": "metal/metal_007.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "metal",
+        "n": 7,
+        "url": "metal/metal_008.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "metal",
+        "n": 8,
+        "url": "metal/metal_009.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "metal",
+        "n": 9,
+        "url": "metal/metal_010.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "ritmo",
+        "n": 0,
+        "url": "ritmo/ritmo_01.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "ritmo",
+        "n": 1,
+        "url": "ritmo/ritmo_02.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "ritmo",
+        "n": 2,
+        "url": "ritmo/ritmo_03.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "ritmo",
+        "n": 3,
+        "url": "ritmo/ritmo_04.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "ruido",
+        "n": 0,
+        "url": "ruido/ruido_01.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "ruido",
+        "n": 1,
+        "url": "ruido/ruido_02.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 0,
+        "url": "regla/regla_001.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 1,
+        "url": "regla/regla_002.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 2,
+        "url": "regla/regla_003.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 3,
+        "url": "regla/regla_004.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 4,
+        "url": "regla/regla_005.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 5,
+        "url": "regla/regla_006.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 6,
+        "url": "regla/regla_007.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 7,
+        "url": "regla/regla_008.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 8,
+        "url": "regla/regla_009.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 9,
+        "url": "regla/regla_010.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 10,
+        "url": "regla/regla_011.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 11,
+        "url": "regla/regla_012.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 12,
+        "url": "regla/regla_013.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "tick",
+        "n": 0,
+        "url": "tick/tick_01.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "tick",
+        "n": 1,
+        "url": "tick/tick_02.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "tick",
+        "n": 2,
+        "url": "tick/tick_03.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "clave",
+        "n": 0,
+        "url": "clave/clave_01.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "clave",
+        "n": 1,
+        "url": "clave/clave_02.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "clave",
+        "n": 2,
+        "url": "clave/clave_03.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "clave",
+        "n": 3,
+        "url": "clave/clave_04.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "tong",
+        "n": 0,
+        "url": "tong/tong_01.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "tong",
+        "n": 1,
+        "url": "tong/tong_02.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "tong",
+        "n": 2,
+        "url": "tong/tong_03.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 0,
+        "url": "xyz/xyz_001.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 1,
+        "url": "xyz/xyz_002.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 2,
+        "url": "xyz/xyz_003.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 3,
+        "url": "xyz/xyz_004.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 4,
+        "url": "xyz/xyz_005.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 5,
+        "url": "xyz/xyz_006.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 6,
+        "url": "xyz/xyz_007.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 7,
+        "url": "xyz/xyz_008.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 8,
+        "url": "xyz/xyz_009.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 9,
+        "url": "xyz/xyz_010.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 10,
+        "url": "xyz/xyz_011.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 11,
+        "url": "xyz/xyz_012.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "xyz",
+        "n": 12,
+        "url": "xyz/xyz_013.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "frotado",
+        "n": 0,
+        "url": "frotado/frotado_01.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "frotado",
+        "n": 1,
+        "url": "frotado/frotado_02.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "frotado",
+        "n": 2,
+        "url": "frotado/frotado_03.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "frotado",
+        "n": 3,
+        "url": "frotado/frotado_04.wav"
+    }
+]
