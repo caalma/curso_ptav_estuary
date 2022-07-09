@@ -1,10 +1,7 @@
-# Testeo de formatos multimedia
+# Tests de características de Estuary
 
 
-
----
-
-## Referencias Rápidas
+## Formatos soportados
 
 | IMAGEN | CineCer0 | Hydra | Notas |
 |:-------|:--------:|:-----:|:------|
