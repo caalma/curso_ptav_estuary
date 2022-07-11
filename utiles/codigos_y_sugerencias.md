@@ -19,9 +19,11 @@
 	raiz=$(pwd); for carpeta in *;do cd $carpeta; echo $(pwd); ffmpeg -f image2 -pattern_type glob -i './*.jpg' -b 8000k -r 6 ../$(basename $(pwd)).mov; cd $raiz; done
 
 
-## Obtener las característica de todos los audios/videos desde la carpeta actual
+## Obtener característica de todos los audios/videos masivamente
 
-	AT=/tmp/x; for AU in $(find -type f); do ffprobe $AU 2> $AT && grep 'Stream' $AT;done > tipos_de_samples.txt
+### Calidad, Encoder, Duracion y bitrate
+
+	AT=/tmp/x; for AU in $(find -type f); do ffprobe $AU 2> $AT && echo "${AU}, " $(grep 'Stream' $AT) ", " $(grep 'Duration' $AT) ; done > data_audios.txt
 
 ## Actualización con Git para Github
 
