@@ -5,6 +5,7 @@ from sys import argv
 from os import listdir
 from os.path import exists, isdir, isfile, splitext, join
 import json
+from configuracion import formatos_permitidos
 
 texto_ayuda = """
 Ejemplo de uso:
@@ -17,28 +18,6 @@ Opcionalmente puede indicarsele un nombre de archivo para grabar el json. En cas
 Los formatos permitidos para samples son: {formatos_permitidos} .
 
 """
-
-formatos_permitidos = {
-    'bmp': 'image',
-    'gif': 'image',
-    'ico': 'image',
-    'jpg': 'image',
-    'jpeg': 'image',
-    'png': 'image',
-    'svg': 'image',
-    'webp': 'image',
-
-    'wav': 'audio',
-    'mp3': 'audio',
-    'm4a': 'audio',
-    'flac': 'audio',
-
-    'mkv': 'video',
-    'mov': 'video',
-    'mp4': 'video',
-    'ogg': 'video',
-    'webm': 'video',
-}
 
 
 def mostrar_ayuda(error=None, exit_=False):

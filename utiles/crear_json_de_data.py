@@ -6,6 +6,7 @@ from os import listdir
 from os.path import exists, isdir, isfile, splitext, join, realpath
 import json
 from subprocess import Popen, PIPE
+from configuracion import formatos_permitidos
 
 texto_ayuda = """
 Ejemplo de uso:
@@ -18,28 +19,6 @@ Opcionalmente puede indicarsele un nombre de archivo para grabar el json. En cas
 Los formatos permitidos para samples son: {formatos_permitidos} .
 
 """
-
-formatos_permitidos = {
-    'bmp': 'image',
-    'gif': 'image',
-    'ico': 'image',
-    'jpg': 'image',
-    'jpeg': 'image',
-    'png': 'image',
-    'svg': 'image',
-    'webp': 'image',
-
-    'wav': 'audio',
-    'mp3': 'audio',
-    'm4a': 'audio',
-    'flac': 'audio',
-
-    'mkv': 'video',
-    'mov': 'video',
-    'mp4': 'video',
-    'ogg': 'video',
-    'webm': 'video',
-}
 
 
 def mostrar_ayuda(error=None, exit_=False):
@@ -91,18 +70,15 @@ def crear_json_con_data(ruta, archivo_json):
     elif not isdir(ruta):
         mostrar_ayuda('La ruta indicada no es una carpeta.', True)
     else:
-        la = [nomb for nomb in listdir(ruta) if isdir(f'{ruta}{nomb}')]
-        lsamples = []
-
         datos = obtener_datos(ruta)
-
+        ldata = []
         for dat in datos:
             arc_extension = splitext(dat['filename'])[-1].strip('.')
             if arc_extension in formatos_permitidos:
-                lsamples.append(dat)
+                ldata.append(dat)
 
         with open(join(ruta, archivo_json), 'w') as f:
-            f.write(json.dumps(lsamples, indent=4))
+            f.write(json.dumps(ldata, indent=4))
 
 
 if __name__ == '__main__':
