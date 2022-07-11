@@ -1,0 +1,448 @@
+[
+    {
+        "filename": "./piedra/piedra_02.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./piedra/piedra_01.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./crack/crack_02.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./crack/crack_04.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./crack/crack_01.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./crack/crack_03.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./bolita/bolita_01.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2824 kb/s"
+    },
+    {
+        "filename": "./bolita/bolita_02.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2824 kb/s"
+    },
+    {
+        "filename": "./metal/metal_002.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./metal/metal_008.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./metal/metal_001.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./metal/metal_004.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2824 kb/s"
+    },
+    {
+        "filename": "./metal/metal_010.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./metal/metal_009.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./metal/metal_007.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./metal/metal_003.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "1",
+        "bitrate": "1411 kb/s"
+    },
+    {
+        "filename": "./metal/metal_006.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./metal/metal_005.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "1",
+        "bitrate": "1411 kb/s"
+    },
+    {
+        "filename": "./ritmo/ritmo_04.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./ritmo/ritmo_01.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./ritmo/ritmo_03.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./ritmo/ritmo_02.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./ruido/ruido_01.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./ruido/ruido_02.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./regla/regla_002.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./regla/regla_007.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./regla/regla_008.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./regla/regla_009.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./regla/regla_010.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./regla/regla_001.mp3",
+        "encoder": "mp3",
+        "hz": "44100",
+        "bitrate": "273 kb/s"
+    },
+    {
+        "filename": "./regla/regla_005.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./regla/regla_011.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./regla/regla_006.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./regla/regla_003.mp3",
+        "encoder": "mp3",
+        "hz": "44100",
+        "bitrate": "232 kb/s"
+    },
+    {
+        "filename": "./regla/regla_012.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./regla/regla_004.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./regla/regla_013.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./tick/tick_02.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./tick/tick_03.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2824 kb/s"
+    },
+    {
+        "filename": "./tick/tick_01.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./clave/clave_01.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2824 kb/s"
+    },
+    {
+        "filename": "./clave/clave_03.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./clave/clave_02.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./clave/clave_04.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2824 kb/s"
+    },
+    {
+        "filename": "./tong/tong_01.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./tong/tong_02.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./tong/tong_03.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_004.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_002.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_001.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_009.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_006.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2824 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_010.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_003.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_012.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_008.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_005.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_013.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2824 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_007.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2823 kb/s"
+    },
+    {
+        "filename": "./xyz/xyz_011.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2825 kb/s"
+    },
+    {
+        "filename": "./frotado/frotado_03.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./frotado/frotado_04.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2826 kb/s"
+    },
+    {
+        "filename": "./frotado/frotado_02.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    },
+    {
+        "filename": "./frotado/frotado_01.wav",
+        "encoder": "pcm_f32le",
+        "hz": "44100",
+        "channels": "2",
+        "bitrate": "2822 kb/s"
+    }
+]
