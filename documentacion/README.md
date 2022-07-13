@@ -4,13 +4,9 @@
 
 ## Sumario
 
----
-
 + [Audio](audio.md)
 + [Video](video.md)
 + [Imagen](imagen.md)
-
----
 
 + [Estuary](estuary.md)
 + [JSoLang](jsolang.md)
@@ -19,5 +15,3 @@
 + [Punctual](punctual.md)
 + [CineCer0](cinecer0.md)
 + [Hydra](hydra.md)
-
----
