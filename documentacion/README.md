@@ -1,7 +1,5 @@
 # Documentación
 
-> Los códigos de esta documentación fueron probados en un sistema operativo gnu/linux. Para usarlos en otro sistema operativo talvez requieran adaptaciones.
-
 ## Sumario
 
 + [Audio](audio.md)

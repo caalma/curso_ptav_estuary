@@ -1,5 +1,8 @@
 # Video
 
+> Los códigos de esta documentación fueron probados en un sistema operativo gnu/linux. Para usarlos en otro sistema operativo talvez requieran adaptaciones.
+
+
 ## Generar videos transparentes con Kdenlive
 
 1. Elegir el video a usar y aplicarle la transparencia por efecto de transformación o por imagen png transparente.
