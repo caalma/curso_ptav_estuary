@@ -73,6 +73,30 @@
     },
     {
         "type": "audio",
+        "bank": "turbulencia",
+        "n": 0,
+        "url": "turbulencia/turbulencia_01.flac"
+    },
+    {
+        "type": "audio",
+        "bank": "turbulencia",
+        "n": 1,
+        "url": "turbulencia/turbulencia_05.flac"
+    },
+    {
+        "type": "audio",
+        "bank": "turbulencia",
+        "n": 2,
+        "url": "turbulencia/turbulencia_09.flac"
+    },
+    {
+        "type": "audio",
+        "bank": "turbulencia",
+        "n": 3,
+        "url": "turbulencia/turbulencia_13.flac"
+    },
+    {
+        "type": "audio",
         "bank": "ruido",
         "n": 0,
         "url": "ruido/ruido_04.flac"
@@ -196,6 +220,42 @@
         "bank": "golpe",
         "n": 15,
         "url": "golpe/golpe_91.flac"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 0,
+        "url": "regla/regla_01.flac"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 1,
+        "url": "regla/regla_11.flac"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 2,
+        "url": "regla/regla_21.flac"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 3,
+        "url": "regla/regla_31.flac"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 4,
+        "url": "regla/regla_41.flac"
+    },
+    {
+        "type": "audio",
+        "bank": "regla",
+        "n": 5,
+        "url": "regla/regla_51.flac"
     },
     {
         "type": "audio",

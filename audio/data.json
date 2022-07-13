@@ -51,25 +51,49 @@
         "filename": "./varios/descencintado_04.flac",
         "encoder": "flac",
         "hz": "44100",
-        "bitrate": "810 kb/s"
+        "bitrate": "1556 kb/s"
     },
     {
         "filename": "./varios/encendedor_01.flac",
         "encoder": "flac",
         "hz": "44100",
-        "bitrate": "849 kb/s"
+        "bitrate": "1566 kb/s"
     },
     {
         "filename": "./varios/cuchillo_01.flac",
         "encoder": "flac",
         "hz": "44100",
-        "bitrate": "688 kb/s"
+        "bitrate": "1721 kb/s"
     },
     {
         "filename": "./varios/descencintado_01.flac",
         "encoder": "flac",
         "hz": "44100",
-        "bitrate": "774 kb/s"
+        "bitrate": "1551 kb/s"
+    },
+    {
+        "filename": "./turbulencia/turbulencia_01.flac",
+        "encoder": "flac",
+        "hz": "44100",
+        "bitrate": "1258 kb/s"
+    },
+    {
+        "filename": "./turbulencia/turbulencia_13.flac",
+        "encoder": "flac",
+        "hz": "44100",
+        "bitrate": "1407 kb/s"
+    },
+    {
+        "filename": "./turbulencia/turbulencia_09.flac",
+        "encoder": "flac",
+        "hz": "44100",
+        "bitrate": "1322 kb/s"
+    },
+    {
+        "filename": "./turbulencia/turbulencia_05.flac",
+        "encoder": "flac",
+        "hz": "44100",
+        "bitrate": "1223 kb/s"
     },
     {
         "filename": "./ruido/ruido_04.flac",
@@ -196,6 +220,42 @@
         "encoder": "flac",
         "hz": "44100",
         "bitrate": "1292 kb/s"
+    },
+    {
+        "filename": "./regla/regla_41.flac",
+        "encoder": "flac",
+        "hz": "44100",
+        "bitrate": "1339 kb/s"
+    },
+    {
+        "filename": "./regla/regla_01.flac",
+        "encoder": "flac",
+        "hz": "44100",
+        "bitrate": "1353 kb/s"
+    },
+    {
+        "filename": "./regla/regla_51.flac",
+        "encoder": "flac",
+        "hz": "44100",
+        "bitrate": "1274 kb/s"
+    },
+    {
+        "filename": "./regla/regla_11.flac",
+        "encoder": "flac",
+        "hz": "44100",
+        "bitrate": "1367 kb/s"
+    },
+    {
+        "filename": "./regla/regla_21.flac",
+        "encoder": "flac",
+        "hz": "44100",
+        "bitrate": "1469 kb/s"
+    },
+    {
+        "filename": "./regla/regla_31.flac",
+        "encoder": "flac",
+        "hz": "44100",
+        "bitrate": "1135 kb/s"
     },
     {
         "filename": "./frotado/frotado_21.flac",
