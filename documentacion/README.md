@@ -8,7 +8,7 @@
 + [Video](video.md)
 + [Imagen](imagen.md)
 
-\
+<br>
 
 + [Estuary](estuary.md)
 + [JSoLang](jsolang.md)
