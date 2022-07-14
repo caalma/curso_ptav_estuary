@@ -13,7 +13,8 @@
 + `https://caalma.github.io/curso_ptav_estuary/imagen/nube.jpg`
 + `https://caalma.github.io/curso_ptav_estuary/imagen/pampa.jpg`
 
-# GIF Animados
+
+## GIF Animados
 
 + `https://caalma.github.io/curso_ptav_estuary/imagen/bolita_galaxia_primaria.gif`
 + `https://caalma.github.io/curso_ptav_estuary/imagen/tapita_giro_02.gif`

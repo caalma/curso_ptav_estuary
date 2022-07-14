@@ -5,15 +5,18 @@
 
 + `https://caalma.github.io/curso_ptav_estuary/video/bolita_11.mp4`
 
+
 ## Video en espacio público
 
 + `https://caalma.github.io/curso_ptav_estuary/video/brillos_01.mov`
 + `https://caalma.github.io/curso_ptav_estuary/video/luces_022.mp4`
 
+
 ## Intervención directa sobre sensor de webcam
 
 + `https://caalma.github.io/curso_ptav_estuary/video/sensor_01.mov`
 + `https://caalma.github.io/curso_ptav_estuary/video/sensor_04.mov`
+
 
 ## Stopmotion en espacio público de Junín
 
