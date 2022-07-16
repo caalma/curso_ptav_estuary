@@ -1,6 +1,6 @@
 # Recursos para Curso Performance telemático y audio-visual en la plataforma Estuary
 
-## Contenidos disponibles
+## Sumario
 
 + [AUDIO](./audio/) : Recursos de audio para livecoding.
 + [VIDEO](./video/) : Recursos de video para livecoding.
