@@ -1,6 +1,8 @@
 # Compilado de utilidades
 
-> Estos utilidades solamente fueron testeadas y usadas en GNU/Linux Mint. Actualmente no se están indicando requerimientos. Posiblemente requieran modificación para utilizar en otro sistema operativo.
+> Estas utilidades fueron testeadas y usadas en GNU/Linux Mint.
+> Actualmente no se están indicando requerimientos.
+> Posiblemente requieran modificación para utilizar en otro sistema operativo.
 
 Script necesarios para automatizar la edición de listas, json, normalización de audios, generación de videos y videos.
 
