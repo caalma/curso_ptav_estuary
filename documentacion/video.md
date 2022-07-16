@@ -1,8 +1,8 @@
 # Video
 
 > ACLARACION:
-> + Los códigos de esta documentación fueron probados en un sistema operativo gnu/linux.
-> + Para usarlos en otro sistema operativo talvez requieran adaptaciones.
+> + Esta documentación fue probada en un sistema operativo gnu/linux.
+> + Para aplicarla en otro sistema operativo talvez requiera adaptaciones.
 
 
 ## Generar videos transparentes con Kdenlive
