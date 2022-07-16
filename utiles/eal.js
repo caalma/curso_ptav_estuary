@@ -1,8 +1,9 @@
 /*
  * Estuary Ajuste Local
  *
- * Ver documentación en:
- * https://github.com/caalma/curso_ptav_estuary/utiles/eal.md
+ * Autor: https://github.com/caalma
+ * Licencia: CC0 1.0 Universal
+ * Documentación: https://caalma.github.io/curso_ptav_estuary/utiles/eal.html
 */
 
 var EAL = EstuaryAjusteLocal = {

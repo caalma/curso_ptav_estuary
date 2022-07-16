@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
+# Autor: https://github.com/caalma
+# Licencia: CC0 1.0 Universal
 
 from sys import argv
 from os.path import basename, splitext
 import json
 import requests
-
 
 texto_ayuda = """
 Ejemplo de uso:

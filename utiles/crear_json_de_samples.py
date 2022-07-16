@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
+# Autor: https://github.com/caalma
+# Licencia: CC0 1.0 Universal
 
 from sys import argv
 from os import listdir
@@ -16,7 +18,6 @@ Requiere que se le indique una ruta de carpeta.
 Dicha ruta debe contener carpetas con archivos para samples.
 Opcionalmente puede indicarsele un nombre de archivo para grabar el json. En caso de no hacerlo el nombre por defecto es samples.json .
 Los formatos permitidos para samples son: {formatos_permitidos} .
-
 """
 
 
@@ -65,7 +66,6 @@ def crear_json_de_samples(ruta, archivo_json):
 
 
 if __name__ == '__main__':
-
     if len(argv) < 2:
         mostrar_ayuda()
     else:
