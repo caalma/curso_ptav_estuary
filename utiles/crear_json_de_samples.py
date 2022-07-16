@@ -12,7 +12,7 @@ Ejemplo de uso:
 
 {archivo_script} ../audio/ archivo.json
 
-Requiere que se le indique un ruta de carpeta.
+Requiere que se le indique una ruta de carpeta.
 Dicha ruta debe contener carpetas con archivos para samples.
 Opcionalmente puede indicarsele un nombre de archivo para grabar el json. En caso de no hacerlo el nombre por defecto es samples.json .
 Los formatos permitidos para samples son: {formatos_permitidos} .
