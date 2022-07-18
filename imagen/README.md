@@ -16,6 +16,4 @@
 
 ## GIF Animados
 
-+ `https://caalma.github.io/curso_ptav_estuary/imagen/bolita_galaxia_primaria.gif`
-+ `https://caalma.github.io/curso_ptav_estuary/imagen/tapita_giro_02.gif`
-+ `https://caalma.github.io/curso_ptav_estuary/imagen/tapita_giro_03.gif`
+en breve
