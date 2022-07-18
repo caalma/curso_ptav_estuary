@@ -23,12 +23,12 @@
 
 	arc_a='video.mp4';
 	arc_z='video_rr.mp4';
-	rc_ancho=720;
-	rc_alto=720;
+	rc_ancho=480;
+	rc_alto=480;
 	rc_x=280;
 	rc_y=0;
 	rd_ancho=-1;
-	rd_alto=500;
+	rd_alto=400;
 	ffmpeg -i "$arc_a" -vf "crop=${rc_ancho}:${rc_alto}:${rc_x}:${rc_y},scale=${rd_ancho}:${rd_alto}" -c:v libx264 -crf 1 "$arc_z"
 
 
