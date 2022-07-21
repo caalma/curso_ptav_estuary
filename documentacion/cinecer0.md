@@ -637,3 +637,6 @@ Acepta valores real y entero. Los valores requeridos son:
 + desplazamiento
 
 	quant 3 0 $ setPosX (sin 0.3) $
+
+
+.
