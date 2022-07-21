@@ -1,6 +1,5 @@
 ---
 
-
 arcoiris_mix:
   i_ancho: 512
   i_alto: 512
@@ -27,7 +26,7 @@ arcoiris_mix:
     - Waree-Bold
     - Yellowtail
     - Yrsa
-  c_fondo: ['transparent', 'white']
+  c_fondo: ['transparent']
   c_figura:
     - 'rgb(200,0,0)'
     - 'rgb(200,50,0)'
