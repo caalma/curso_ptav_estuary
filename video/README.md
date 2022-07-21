@@ -1,4 +1,7 @@
-# Videos disponibles para CineCer0 e Hydra
+# Videos disponibles
+
+
+Pueden utilizarse con CineCer0, Hydra y Punctual.
 
 
 ## Acercamiento extremo a webcam

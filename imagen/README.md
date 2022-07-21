@@ -1,4 +1,7 @@
-# Imágenes disponibles para CineCer0 e Hydra
+# Imágenes disponibles
+
+
+Pueden utilizarse con CineCer0, Hydra y Punctual.
 
 
 ## Fotos
@@ -17,3 +20,7 @@
 ## GIF Animados
 
 en breve
+
++ `https://caalma.github.io/curso_ptav_estuary/imagen/imagen/01_tpg.gif`
++ `https://caalma.github.io/curso_ptav_estuary/imagen/imagen/az_may.gif`
++ `https://caalma.github.io/curso_ptav_estuary/imagen/imagen/az_min.gif`

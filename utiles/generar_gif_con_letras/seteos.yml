@@ -1,0 +1,114 @@
+---
+
+
+arcoiris_mix:
+  i_ancho: 512
+  i_alto: 512
+  i_retardo: 50
+  i_repeticiones: 0
+  f_medida: [300]
+  f_fuente:
+    - Asap-Regular
+    - Bahiana
+    - Bertha-Melanie
+    - Dosis-Bold
+    - Inconsolata
+    - Jamrul
+    - Lato-Black
+    - Norasi
+    - Peeps
+    - Sail
+    - Samanata
+    - Sawasdee-Bold
+    - Tharon
+    - Truculenta-18pt-Black
+    - Ubuntu
+    - Utopia
+    - Waree-Bold
+    - Yellowtail
+    - Yrsa
+  c_fondo: ['transparent', 'white']
+  c_figura:
+    - 'rgb(200,0,0)'
+    - 'rgb(200,50,0)'
+    - 'rgb(150,100,0)'
+    - 'rgb(50,200,0)'
+    - 'rgb(0,200,0)'
+    - 'rgb(0,200,50)'
+    - 'rgb(0,150,100)'
+    - 'rgb(0,50,200)'
+    - 'rgb(0,0,200)'
+    - 'rgb(50,0,200)'
+    - 'rgb(100,0,150)'
+    - 'rgb(200,0,50)'
+
+
+arcoiris_truculenta:
+  i_ancho: 512
+  i_alto: 512
+  i_retardo: 50
+  i_repeticiones: 0
+  f_medida: [400]
+  f_fuente:
+    - Truculenta-Thin
+    - Truculenta-ExtraLight
+    - Truculenta-Light
+    - Truculenta-Regular
+    - Truculenta-Medium
+    - Truculenta-SemiBold
+    - Truculenta-Bold
+    - Truculenta-ExtraBold
+    - Truculenta-Black
+  c_fondo: ['transparent']
+  c_figura:
+    - 'rgb(200,0,0)'
+    - 'rgb(200,50,0)'
+    - 'rgb(150,100,0)'
+    - 'rgb(50,200,0)'
+    - 'rgb(0,200,0)'
+    - 'rgb(0,200,50)'
+    - 'rgb(0,150,100)'
+    - 'rgb(0,50,200)'
+    - 'rgb(0,0,200)'
+    - 'rgb(50,0,200)'
+    - 'rgb(100,0,150)'
+    - 'rgb(200,0,50)'
+
+
+byn_mix:
+  i_ancho: 512
+  i_alto: 512
+  i_retardo: 50
+  i_repeticiones: 0
+  f_medida: [400]
+  f_fuente:
+    - Abyssinica-SIL
+    - AlgerianBasD
+    - Amatic-Bold
+    - Andale-Mono
+    - Andika
+    - Ani
+    - AnjaliOldLipi
+    - Arial
+    - ArialRoundedMTStd
+    - Asap-Regular
+    - Asap-SemiBold
+    - Bahiana
+    - Bertha-Melanie
+    - Bitstream-Charter
+    - Bluesky
+    - BrushScrD
+    - BrushScrDEE
+    - BrushScriptStd
+    - Budapest
+    - Cabron
+    - Chandas
+    - Clarendon
+    - College
+    - Comic-Sans-MS
+    - Cooper-Black
+    - Courier
+  c_fondo: ['transparent']
+  c_figura:
+    - '#f8f8f8'
+    - '#080808'
