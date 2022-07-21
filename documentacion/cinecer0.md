@@ -2,6 +2,7 @@
 
 Lenguaje desarrollado por el equipo de Estuary para experimenta con visuales manipulando videos, imágenes y texto.
 
+
 ## Documentación oficial
 
 + <https://github.com/dktr0/estuary/blob/dev/client/src/Estuary/Languages/CineCer0/REFERENCE.md>
@@ -37,7 +38,7 @@ Para cargar recursos de video o imagen se utiliza la función 'video' o 'image' 
 
 Para mostrar textos se usa la función 'text' seguida la cadena de texto a mostrar. Ej:
 
-	text "BlaBlaBla"
+	text "Bla Ble Bli Blo Blu"
 
 
 ### Modificadores
@@ -45,6 +46,7 @@ Para mostrar textos se usa la función 'text' seguida la cadena de texto a mostr
 #### Modificadores de POSICIÓN (video, imagen, texto)
 
 
+##### setPosX
 
 Situa el centro del recurso en la posición 'x' relativa. Los valores esperados son cualquier real.
 
@@ -53,6 +55,8 @@ Como convención se sigue: izquierda (-1) a derecha 1
 	setPosX [x] $
 
 
+##### setPosY
+
 Situa el centro del recurso en la posición 'y' relativa. Los valores esperados son cualquier real.
 
 Como convención se sigue:  arriba (-1) a abajo 1
@@ -60,12 +64,16 @@ Como convención se sigue:  arriba (-1) a abajo 1
 	setPosY [y] $
 
 
+##### setCoord
+
 Situa el centro del recurso en la posición 'x' e 'y' relativa.
 
 Los valores y convenciones son iguales a 'setPosX' y 'setPosY'
 
 	setCoord [x] [y] $
 
+
+##### z
 
 Modifica la profundidad variando el índice z del recurso.
 
@@ -81,14 +89,18 @@ Las posiciones z hacen referencia al entorno de Cinecer0. No modifican la profun
 #### Modificador de AUDIO (videos)
 
 
+##### vol
+
 Los video se reproducen con el audio original. En caso de no querer utilizarlo deben mutearse explicitamente.
 
 Los valores aceptados son reales desde 0 hasta 1.
 
 	vol 0.5 $
 
+
 #### Modificadores para Video e Image
 
+##### setWidth
 
 Ancho del recurso. Los valores refieren a una escala respecto del ancho original del recurso.
 
@@ -108,6 +120,8 @@ Alias de 'setWidth'
 	width 1.2 $
 
 
+##### setHeight
+
 Alto del recurso. Los valores refieren a una escala respecto del alto original del recurso.
 
 Acepta cualquier real.
@@ -126,6 +140,8 @@ Alias de 'setHeight'
 	height 0.7 $
 
 
+##### setSize
+
 Escala del recurso. Los valores refieren a una escala respecto del alto y el alto original del recurso.
 
 Acepta cualquier real.
@@ -141,6 +157,8 @@ Alias de 'setSize'
 
 	size 0.5 $
 
+
+##### setOpacity
 
 Afecta la opacidad del recurso.
 
@@ -158,12 +176,16 @@ Alias de 'setOpacity'
 	opacity 0.8 $
 
 
+##### setRotate
+
 Rota el recurso en los n grados indicados.
 
 Acepta cualquier real.
 
 	setRotate 90 $
 
+
+##### setBlur
 
 Desenfoca el recurso en la cantidad indicada.
 
@@ -173,6 +195,8 @@ Como convención se sigue: (n<=0) nítido y (n>0) desenfocado según el valor de
 
 	setBlur 10 $
 
+
+##### setBrightness
 
 Ajusta el brillo del recurso según el valor indicado.
 
@@ -184,6 +208,8 @@ Como convención se sigue: (n=0) negro (0<n<1) oscurecer, (n=1) original y (n>1)
 
 	setBrightness 0.9 $
 
+
+##### setContrast
 
 Ajusta el contraste del recurso según el valor indicado.
 
@@ -198,6 +224,8 @@ Como convención se sigue: (n=0) gris medio (0<n<1) reduce el contraste, (n=1) o
 	setContrast 1.2 $
 
 
+##### setGrayscale
+
 Convierte a grises el recurso.
 
 Acepta reales entre 0 y 1.
@@ -206,6 +234,8 @@ Como convención se sigue: (n=0) color original, (n=1) gris.
 
 	setGrayscale 0.4 $
 
+
+##### setSaturate
 
 Ajusta la saturación del recurso.
 
@@ -217,6 +247,8 @@ El límite de la saturación está en 55 aprox.
 
 	setSaturate 5 $
 
+
+##### circleMask
 
 Máscara circular.
 
@@ -238,6 +270,8 @@ Las convenciones de la posición son similares a los de setCoord.
 	circleMask' 0.5 1 0.2 $
 
 
+##### sqrMask
+
 Máscara cuadrada.
 
 Acepta reales entre 0 y 1.
@@ -246,6 +280,8 @@ Como convención se sigue: (n<=0) sin máscara, (0<n<1) reducción del radio de 
 
 	sqrMask 0.3 $
 
+
+##### rectMask
 
 Máscara rectangular.
 
@@ -258,6 +294,8 @@ Lo valores variarán la reducción que crece hacia el centro.
 
 #### Modificadores para texto
 
+##### size
+
 Cambia el tamaño del texto. El valor indicado actua como una escala, similar al 'em' de css.
 
 Acepta reales positivos.
@@ -269,12 +307,16 @@ Como convención se sigue: (0<n<1) achican , (n=1) medida original, (n>1) agrand
 	size 2.3 $
 
 
+##### font
+
 Selecciona la tipografía dentro de las disponibles localmente.
 
 Acepta el nombre real o genérico de una tipografía instalada localmente.
 
 	font "letter" $
 
+
+##### colour
 
 Elige el color del texto.
 
@@ -285,12 +327,16 @@ Acepta varios formatos de color: hexadecimal, función rgb y rgba, nombre del co
 	colour "blue" $
 
 
+##### rgb
+
 Elige el color de texto según valores RGB.
 
 Acepta reales entre 0 y 1. Los tres valores asignados corresponden a rojo, verde y azul.
 
 	rgb 0.5 1 0 $
 
+
+##### rgba
 
 Elige el color del texto según RGBA.
 
@@ -299,12 +345,16 @@ Acepta reales entre 0 y 1. Los cuatro valores requeridos corresponden a: rojo, v
 	rgba 1 0.5 0.8 0. $5
 
 
+##### hsl
+
 Elege el color del texto según HSL.
 
 Acepta reales entre 0 y 1. Los tres valores requeridos corresponden a espectro, saturación y luminosidad.
 
 	hsl 0.5 0.8 0.4 $
 
+
+##### hsla
 
 Elege el color del texto segun HSLA.
 
@@ -313,6 +363,8 @@ Acepta reales entre 0 y 1. Los cuatro valores requeridos corresponden a espectro
 	hsla 0.3 1 0.6 0.5 $
 
 
+##### hsv
+
 Elege el color del texto segun HSV.
 
 Acepta reales entre 0 y 1. Los tres valores requeridos corresponden a espectro, saturación, valor.
@@ -320,12 +372,15 @@ Acepta reales entre 0 y 1. Los tres valores requeridos corresponden a espectro, 
 	hsv 0.3 1 0.6 $
 
 
+##### hsva
+
 Elege el color del texto segun HSV.
 
 Acepta reales entre 0 y 1. Los cuatro valores requeridos corresponden a espectro, saturación, valor.
 
 	hsva 0.3 1 0.6 0.5 $
 
+##### strike
 
 Aplica el TACHADO del texto.
 
@@ -334,19 +389,25 @@ No requiere argumentos.
 	strike $
 
 
+##### bold
+
 Activa la NEGRITA en el estilo de texto.
 
 No requiere argumentos.
 
 	bold $
 
+##### italic
 
 Activa la ITÁLICA en el estilo de texto.
 
 	italic $
 
+
 #### Modificadores de tiempo (videos)
 
+
+##### natural
 
 Cambia el punto de inicio del video.
 
@@ -357,12 +418,16 @@ Aceptar reales. El n asinado representa desplazamiento.
 	natural 10 $
 
 
+##### every
+
 Ajusta la duración (comprimiendo o estirando) del video a la cantidad de ciclos indicada.
 
 Acepta numeros naturales. Los dos valores requeridos son: la cantidad de cíclos y el desplazamiento en fotogramas.
 
 	every 3 0 $
 
+
+##### round
 
 Ajusta la longitud al número de compases más cercano en el tempo de Estuary.
 
@@ -373,6 +438,8 @@ Acepta números naturales. El valor requerido refiere al desplazamiento del punt
 	round 4 $
 
 
+##### roundMetre
+
 Ajusta la duración al número de compases más cercano múltiplo de 2,4,8,16,etc. para mantener el vídeo sincronizado con el tempo de Estuary.
 
 Acepta números naturales. El valor requerido refiere al desplazamiento del punto de inicio del video.
@@ -382,6 +449,7 @@ Acepta números naturales. El valor requerido refiere al desplazamiento del punt
 	roundMetre 3 $
 
 
+##### chop
 
 Reproduce el vídeo desde la posición inicial (0-1) hasta la posición final (0-1).
 
@@ -399,6 +467,8 @@ Acepta valores reales y enteros. Los cuatro valores que acepta son:
 	chop 0.2 0.7 2 0 $
 
 
+##### chop'
+
 Reproduce el vídeo desde la posición inicial (0-1) estirando o comprimiendo su
 
 longitud para ajustarlo al número de ciclos proporcionado como parámetro.
@@ -413,6 +483,8 @@ Acepta valores reales y enteros. Los tres valores que acepta son:
 
 	chop' 0.5 3 1 $
 
+
+##### chopSecs
 
 Reproduce el vídeo desde la posición inicial hasta la posición final estirando o comprimiendo su longitud
 
@@ -432,12 +504,16 @@ Acepta valores enteros positivos. Los cuatro valores que acepta son:
 	chopSecs 3 5 2 0 $
 
 
+##### snap
+
 La función snap ajusta la duración del vídeo al número de ciclos más cercano.
 
 Acepta enteros positivos. El valor requerido se refiere al desplazamiento del punto de inicio.
 
 	snap 15 $
 
+
+##### snapMetre
 
 La función snapMetre es similar a snap pero ajusta la duración del vídeo a 2,4,8,16,32, etc. ciclos.
 
@@ -447,6 +523,8 @@ Acepta enteros positivos. El valor requerido se refiere al desplazamiento del pu
 
 	snapMetre 10 $
 
+
+##### seg
 
 Reproduce un segmento del vídeo (de principio a fin en porcentaje).
 
@@ -461,6 +539,8 @@ Acepta valores reales y naturales. Los valores requeridos son:
 	seg 0.25 0.75 2 $
 
 
+##### freeSeg
+
 Similar a 'seg' pero la duración del segmento está determinada por la velocidad natural.
 
 Acepta valores reales entre 0 y 1. Los valores requeridos son:
@@ -471,12 +551,15 @@ Acepta valores reales entre 0 y 1. Los valores requeridos son:
 	freeSeg 0.25 0.75 $
 
 
+##### freeRun
+
 Permite que el vídeo se reproduzca libremente sin ajustar el deplazamiento ni la velocidad.
 
 No requiere valores.
 
 	freeRun $
 
+##### rate
 
 Permite controlar directamente la velocidad del vídeo.
 
@@ -486,6 +569,53 @@ Permite controlar directamente la velocidad del vídeo.
 
 
 #### Controladores de valor
+
+
+##### sin
+
+Generador de valores para una señal sinusoidal.
+
+Acepta valores reales. El valore requerido refiere a la cantidad de resultados respecto del ciclo.
+
+	setPosY (sin 0.1) $
+
+##### range
+
+Generador periódico acotado.
+
+Acepta reales y un generador. Los valores requeridos son:
+
++ cantidad más chica,
++ cantidad más grande,
++ señal generadora
+
+
+	size (range 2 0.4 $ sin 0.2) $
+
+
+##### fadeIn
+
+Genera los valores desde 0 hasta 1.
+
+Acepta reales positvos. El valor requerido refiere a la cantidad de variaciones dentro de un ciclo.
+
+Los ciclos a mayor valor es más lento.
+
+	size (fadeIn 5) $
+
+
+##### fadeOut
+
+Genera los valores desde 1 hasta 0.
+
+Acepta reales positvos. El valor requerido refiere a la cantidad de variaciones dentro de un ciclo.
+
+Los ciclos a mayor valor es más lento.
+
+	setPosX (fadeOut 6) $
+
+
+##### ramp
 
 Genera valores reales entre el valor inical y el final, variándolos de acuerdo a la cantidad de ciclos indicada. Una vez que llegó al valor final se mantiene en ese valor.
 
@@ -497,42 +627,7 @@ Se aplica de manera que su resultado es el argumento de otros modificadores.
 	rgba 1 0 0.5 (ramp 2 0 1) $
 
 
-Generador de valores para una señal sinusoidal.
-
-Acepta valores reales. El valore requerido refiere a la cantidad de resultados respecto del ciclo.
-
-	setPosY (sin 0.1) $
-
-
-Generador periódico acotado.
-
-Acepta reales y un generador. Los valores requeridos son:
-
-+ cantidad más chica,
-+ cantidad más grande,
-+ señal generadora
-
-```
-	size (range 2 0.4 $ sin 0.2) $
-```
-
-Genera los valores desde 0 hasta 1.
-
-Acepta reales positvos. El valor requerido refiere a la cantidad de variaciones dentro de un ciclo.
-
-Los ciclos a mayor valor es más lento.
-
-	size (fadeIn 5) $
-
-
-Genera los valores desde 1 hasta 0.
-
-Acepta reales positvos. El valor requerido refiere a la cantidad de variaciones dentro de un ciclo.
-
-Los ciclos a mayor valor es más lento.
-
-	setPosX (fadeOut 6) $
-
+##### quant
 
 Actua como un multiplicador y alineador de punto de entrada del video.
 
@@ -541,6 +636,4 @@ Acepta valores real y entero. Los valores requeridos son:
 + multiplicador,
 + desplazamiento
 
-```
 	quant 3 0 $ setPosX (sin 0.3) $
-```
