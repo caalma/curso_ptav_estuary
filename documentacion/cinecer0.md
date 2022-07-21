@@ -6,11 +6,12 @@ Lenguaje desarrollado por el equipo de Estuary para experimenta con visuales man
 ## Documentación oficial
 
 + <https://github.com/dktr0/estuary/blob/dev/client/src/Estuary/Languages/CineCer0/REFERENCE.md>
++ Tutorial y referencias dentro de <https://estuary.mcmaster.ca/>
 
 
 ##  Documentación (no oficial)
 
-> En proceso de construcción. Actualizada : 2022-07-20
+> En proceso de construcción. Actualizada : 2022-07-21
 
 CineCer0 es un mini lenguaje de programación para componer visuales mediante videos, imágenes, formas y texto con tipografía.
 Está inspirado en [CineVivo](https://github.com/essteban/CineVivo), otro desarrollo para componer visuales y videos.
@@ -536,6 +537,8 @@ Acepta valores reales y naturales. Los valores requeridos son:
 + fin (en porcentaje de 0 a 1)
 + cantidad de ciclos al que ajustarse
 
+<br>
+
 	seg 0.25 0.75 2 $
 
 
@@ -545,8 +548,10 @@ Similar a 'seg' pero la duración del segmento está determinada por la velocida
 
 Acepta valores reales entre 0 y 1. Los valores requeridos son:
 
-+ inicio
-+ fin
+- inicio
+- fin
+
+<br>
 
 	freeSeg 0.25 0.75 $
 
@@ -589,6 +594,7 @@ Acepta reales y un generador. Los valores requeridos son:
 + cantidad más grande,
 + señal generadora
 
+<br>
 
 	size (range 2 0.4 $ sin 0.2) $
 
@@ -636,7 +642,6 @@ Acepta valores real y entero. Los valores requeridos son:
 + multiplicador,
 + desplazamiento
 
+<br>
+
 	quant 3 0 $ setPosX (sin 0.3) $
-
-
-.
