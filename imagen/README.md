@@ -21,6 +21,6 @@ Pueden utilizarse con CineCer0, Hydra y Punctual.
 
 en breve
 
-+ `https://caalma.github.io/curso_ptav_estuary/imagen/imagen/01_tpg.gif`
-+ `https://caalma.github.io/curso_ptav_estuary/imagen/imagen/az_may.gif`
-+ `https://caalma.github.io/curso_ptav_estuary/imagen/imagen/az_min.gif`
++ `https://caalma.github.io/curso_ptav_estuary/imagen/01_tpg.gif`
++ `https://caalma.github.io/curso_ptav_estuary/imagen/az_may.gif`
++ `https://caalma.github.io/curso_ptav_estuary/imagen/az_min.gif`
