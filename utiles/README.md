@@ -16,3 +16,4 @@ Script necesarios para automatizar la edición de listas, json, normalización d
 - Script, crea un archivo json con características de datos de un banco de audio - [aquí](crear_json_de_data.py).
 - Script, crea un archivo json con samples de un banco de audio (con formato para Estuary) - [aquí](crear_json_de_samples.py).
 - Script, actualiza archivos de datos y samples en bancos de audio - [aquí](actualizar_data_y_samples.bash).
+- Script, generador de gif animado mediante texto - [aquí](./generar_gif_con_letras/).
