@@ -10,6 +10,7 @@
 
 + [Estuary](estuary.md)
 + [JSoLang](jsolang.md)
++ [PEGjs](pegjs.md)
 + [TidalCycles](tidalcycles.md)
 + [Seis8s](seis8s.md)
 + [Punctual](punctual.md)
