@@ -1,5 +1,7 @@
 ##JSoLang textapita
 {
+    // Entorno: variables y funciones
+
     var cfg = {
     	'ruta_video': '"https://caalma.github.io/curso_ptav_estuary/jsolang/textapita/videos/'
     }
@@ -74,6 +76,7 @@
     }
 }
 
+// Reglas
 
 composicion = (modificadores / texto / ignorar)*
               { return resultado() }
@@ -82,8 +85,6 @@ modificadores = (':'modificador)
 
 modificador = m:('ondula-y' / 'ondula-x' / 'giratorias' / 'izquierda' / 'centro' / 'derecha')
               { agregar(m, 'modificadores') }
-
-
 
 texto = t:('[' signos ']')
         { return t }
