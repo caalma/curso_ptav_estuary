@@ -41,11 +41,17 @@ Una línea de texto:
 
 	##textapita
 	[Ja je Ji Ño ñu]
+
 Dos lineas de texto:
 
 	##textapita
 	[Primera] .
 	[segundA]
+
+Limpia la salida:
+
+	##textapita
+	[]
 
 Con modificadores:
 
