@@ -27,8 +27,8 @@ Modificadores de animación:
 
 Modificadores de composición:
 
-+ **centro**
 + **izquierda**
++ **centro**
 + **derecha**
 
 

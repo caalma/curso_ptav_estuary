@@ -1,7 +1,7 @@
 ##JSoLang textapita
 {
     var cfg = {
-    	'ruta_video': '"https://caalma.github.io/curso_ptav_estuary/jsolangs/textapita/videos/'
+    	'ruta_video': '"https://caalma.github.io/curso_ptav_estuary/jsolang/textapita/videos/'
     }
 
     var dat = {
@@ -54,14 +54,16 @@
             elem = [];
             l = linea_texto[i];
 	    elem.push(gen_posicion(i, 0, linea_texto.length + 2));
-            if(l.toUpperCase() === l){
-            	elem.push(gen_tamannio(0.3));
-            }else{
-		elem.push(gen_tamannio(0.2));
-            }
+
             if(l === ' '){
+		elem.push(gen_tamannio(2));
                 elem.push(gen_texto_random());
             }else{
+		if(l.toUpperCase() === l){
+            	    elem.push(gen_tamannio(0.1));
+		}else{
+		    elem.push(gen_tamannio(0.05));
+		}
 	        elem.push(gen_video(l));
             }
 
@@ -78,13 +80,15 @@ composicion = (modificadores / texto / ignorar)*
 
 modificadores = (':'modificador)
 
-modificador = m:('centrado' / 'disperso' / 'ondulante')
+modificador = m:('ondula-y' / 'ondula-x' / 'giratorias' / 'izquierda' / 'centro' / 'derecha')
               { agregar(m, 'modificadores') }
+
+
 
 texto = t:('[' signos ']')
         { return t }
 
-signos = s:('ñ' / [A-Za-z ])* { agregar(s, 'textos') }
+signos = s:('ñ' / 'Ñ' / [A-Za-z ])* { agregar(s, 'textos') }
 
 ignorar = s:(. / ' ' / '\n' )
           { return s }
