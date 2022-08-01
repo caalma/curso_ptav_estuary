@@ -36,8 +36,8 @@ Algunos modificadores, como el volumen y el paneo sonacumulativos.
 	> >> >>>
 
 	_duracion_del_ciclo
-	/2 *2
-	/3 *3
+	/2 /3
+	*2 *3
 
 	_ritmo
 	+ ++ +++
@@ -53,10 +53,10 @@ Algunos modificadores, como el volumen y el paneo sonacumulativos.
 	tonk toomm trikint tritiing triuuii trraass trritrri trtrtrtr tuk
 	tulinnn turip tutuntutun tuum uauuau uiiuuu uops uow zick zizizizi
 
-	_sample_silencio
+	_sample_silencio FALTA
 	=
 
-	_separador_de_capas
+	_separador_de_capas FALTA
 	;
 
 ## Requerimientos
