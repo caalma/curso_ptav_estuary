@@ -45,13 +45,9 @@ Algunos modificadores, como el volumen y el paneo sonacumulativos.
 
 	_samples_sonoros
 	aahh arg auu baaa bbbddd beep biiubiuu biukbuik blublu braam bruubrr
-	chuinn chukun clapclap clik cocoococoo crack crash crish cuak dindundin
-	fiui fuifuifuii gluglu gruar grugrr guauguau guiin iaaaa inkoon iuiuiuiu
-	iuueu ja je jiik jojujujuju juuhh kash krikri mmm oh oink pashh piopi
-	pop prrrprrr punch shiiee shiushi shiuushaaa shshsh srisisi tak tictac
-	tilintilin tinb tink tinkunbin tinsh tirariru tiruriruin tling tomtom
-	tonk toomm trikint tritiing triuuii trraass trritrri trtrtrtr tuk
-	tulinnn turip tutuntutun tuum uauuau uiiuuu uops uow zick zizizizi
+	chuinn chukun clik cocoococoo crack crash crish cuak dindundin
+	fiui fuifuifuii fuuhh gluglu gruar grugrr guauguau guiin iaaaa
+	inkoon iuiuiuiu iuueu ja je jiik jojujujuju kash oh oink pashh
 
 	_sample_silencio FALTA
 	=

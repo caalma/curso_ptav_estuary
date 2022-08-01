@@ -1,992 +1,890 @@
 [
     {
         "type": "audio",
-        "bank": "uops",
+        "bank": "bbbddd",
         "n": 0,
-        "url": "uops/glass-break-39356.mp3"
+        "url": "bbbddd/flys_i_6127_a.mp3"
     },
     {
         "type": "audio",
         "bank": "bbbddd",
-        "n": 0,
-        "url": "bbbddd/flys-i-6127.mp3"
+        "n": 1,
+        "url": "bbbddd/flys_i_6127_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "bbbddd",
+        "n": 2,
+        "url": "bbbddd/flys_i_6127_c.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "bbbddd",
+        "n": 3,
+        "url": "bbbddd/flys_i_6127_d.mp3"
     },
     {
         "type": "audio",
         "bank": "kash",
         "n": 0,
-        "url": "kash/gunner-sound-43794.mp3"
+        "url": "kash/gunner_sound_43794_a.mp3"
     },
     {
         "type": "audio",
         "bank": "biukbuik",
         "n": 0,
-        "url": "biukbuik/dog-toy-5987.mp3"
+        "url": "biukbuik/dog_toy_5987_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "pashh",
-        "n": 0,
-        "url": "pashh/crash-dof-2-37564.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "pashh",
+        "bank": "biukbuik",
         "n": 1,
-        "url": "pashh/crash-lofi-39692.mp3"
+        "url": "biukbuik/dog_toy_5987_b.mp3"
     },
     {
         "type": "audio",
-        "bank": "pashh",
+        "bank": "biukbuik",
         "n": 2,
-        "url": "pashh/electronic-crash-12-47444.mp3"
+        "url": "biukbuik/dog_toy_5987_c.mp3"
     },
     {
         "type": "audio",
-        "bank": "pashh",
+        "bank": "biukbuik",
         "n": 3,
-        "url": "pashh/electronic-crash-3-47448.mp3"
+        "url": "biukbuik/dog_toy_5987_d.mp3"
     },
     {
         "type": "audio",
-        "bank": "pashh",
+        "bank": "biukbuik",
         "n": 4,
-        "url": "pashh/static-crash-clap-37575.mp3"
+        "url": "biukbuik/dog_toy_5987_e.mp3"
     },
     {
         "type": "audio",
-        "bank": "tinkunbin",
-        "n": 0,
-        "url": "tinkunbin/objects-crashingmp3-14850.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "grugrr",
-        "n": 0,
-        "url": "grugrr/angry-beast-6172.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "grugrr",
-        "n": 1,
-        "url": "grugrr/angry-tiger-6089.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "grugrr",
-        "n": 2,
-        "url": "grugrr/dragon-growl-37570.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "grugrr",
-        "n": 3,
-        "url": "grugrr/growl1-7121.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "grugrr",
-        "n": 4,
-        "url": "grugrr/lion-lament-6926.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "grugrr",
+        "bank": "biukbuik",
         "n": 5,
-        "url": "grugrr/lion-loud-6813.mp3"
+        "url": "biukbuik/dog_toy_5987_f.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "pashh",
+        "n": 0,
+        "url": "pashh/crash_dof_2_37564_a.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "pashh",
+        "n": 1,
+        "url": "pashh/crash_lofi_39692.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "pashh",
+        "n": 2,
+        "url": "pashh/electronic_crash_12_47444.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "pashh",
+        "n": 3,
+        "url": "pashh/electronic_crash_12_47444_a.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "pashh",
+        "n": 4,
+        "url": "pashh/electronic_crash_3_47448.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "pashh",
+        "n": 5,
+        "url": "pashh/static_crash_clap_37575.mp3"
     },
     {
         "type": "audio",
         "bank": "grugrr",
-        "n": 6,
-        "url": "grugrr/lion-roar-6011.mp3"
+        "n": 0,
+        "url": "grugrr/angry_beast_6172_a.mp3"
     },
     {
         "type": "audio",
         "bank": "grugrr",
-        "n": 7,
-        "url": "grugrr/male-snore-63981.mp3"
+        "n": 1,
+        "url": "grugrr/angry_tiger_6089_a.mp3"
     },
     {
         "type": "audio",
         "bank": "grugrr",
-        "n": 8,
-        "url": "grugrr/monster-210327_0111-36499.mp3"
+        "n": 2,
+        "url": "grugrr/dragon_growl_37570_a.mp3"
     },
     {
         "type": "audio",
         "bank": "grugrr",
-        "n": 9,
-        "url": "grugrr/monster-sound-effects-10-44042.mp3"
+        "n": 3,
+        "url": "grugrr/lion_roar_6011_a.mp3"
     },
     {
         "type": "audio",
         "bank": "jojujujuju",
         "n": 0,
-        "url": "jojujujuju/monkey-scream-6407.mp3"
+        "url": "jojujujuju/monkey_scream_6407_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "uauuau",
-        "n": 0,
-        "url": "uauuau/sound-of-a-seal-14648.mp3"
+        "bank": "jojujujuju",
+        "n": 1,
+        "url": "jojujujuju/monkey_scream_6407_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "jojujujuju",
+        "n": 2,
+        "url": "jojujujuju/monkey_scream_6407_c.mp3"
     },
     {
         "type": "audio",
         "bank": "crack",
         "n": 0,
-        "url": "crack/egg-cracking-6844.mp3"
+        "url": "crack/egg_cracking_6844.mp3"
     },
     {
         "type": "audio",
         "bank": "guiin",
         "n": 0,
-        "url": "guiin/surprise-sound-effect-99300.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "trtrtrtr",
-        "n": 0,
-        "url": "trtrtrtr/coded-message-sonar-72108.mp3"
+        "url": "guiin/surprise_sound_effect_99300_a.mp3"
     },
     {
         "type": "audio",
         "bank": "gruar",
         "n": 0,
-        "url": "gruar/tigre-46543.mp3"
+        "url": "gruar/tigre_46543.mp3"
     },
     {
         "type": "audio",
         "bank": "guauguau",
         "n": 0,
-        "url": "guauguau/dog-barking-37795.mp3"
+        "url": "guauguau/dog_barking_37795_a.mp3"
     },
     {
         "type": "audio",
         "bank": "guauguau",
         "n": 1,
-        "url": "guauguau/dog-talking-or-howling-72517.mp3"
+        "url": "guauguau/dog_barking_37795_b.mp3"
     },
     {
         "type": "audio",
         "bank": "guauguau",
         "n": 2,
-        "url": "guauguau/dogs_1-6701.mp3"
+        "url": "guauguau/dog_barking_37795_c.mp3"
     },
     {
         "type": "audio",
         "bank": "guauguau",
         "n": 3,
-        "url": "guauguau/group_of_dogs_barking-7013.mp3"
+        "url": "guauguau/dog_barking_37795_d.mp3"
     },
     {
         "type": "audio",
-        "bank": "clapclap",
-        "n": 0,
-        "url": "clapclap/audience_applause_big-theatre-54753.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "piopi",
-        "n": 0,
-        "url": "piopi/birds-19624.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "piopi",
-        "n": 1,
-        "url": "piopi/birds-in-the-morning-24147.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "piopi",
-        "n": 2,
-        "url": "piopi/birds-singing-nature-sounds-8001.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "piopi",
-        "n": 3,
-        "url": "piopi/birds_singing-6888.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "piopi",
+        "bank": "guauguau",
         "n": 4,
-        "url": "piopi/cardinal-37075.mp3"
+        "url": "guauguau/dog_barking_37795_e.mp3"
     },
     {
         "type": "audio",
-        "bank": "piopi",
+        "bank": "guauguau",
         "n": 5,
-        "url": "piopi/cockatiel-chirping-26999.mp3"
+        "url": "guauguau/dog_talking_or_howling_72517_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "piopi",
+        "bank": "guauguau",
         "n": 6,
-        "url": "piopi/late-afternoon-suburban-ambience-loud-storm-bird-singing-9331.mp3"
+        "url": "guauguau/dog_talking_or_howling_72517_b.mp3"
     },
     {
         "type": "audio",
-        "bank": "piopi",
+        "bank": "guauguau",
         "n": 7,
-        "url": "piopi/papunie_3-27395.mp3"
+        "url": "guauguau/dog_talking_or_howling_72517_c.mp3"
     },
     {
         "type": "audio",
-        "bank": "piopi",
+        "bank": "guauguau",
         "n": 8,
-        "url": "piopi/seagulls-6189.mp3"
+        "url": "guauguau/dogs_1_6701_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "piopi",
+        "bank": "guauguau",
         "n": 9,
-        "url": "piopi/seagulls_short-6004.mp3"
+        "url": "guauguau/dogs_1_6701_b.mp3"
     },
     {
         "type": "audio",
-        "bank": "tonk",
-        "n": 0,
-        "url": "tonk/chair-smack-44161.mp3"
+        "bank": "guauguau",
+        "n": 10,
+        "url": "guauguau/dogs_1_6701_c.mp3"
     },
     {
         "type": "audio",
-        "bank": "tonk",
-        "n": 1,
-        "url": "tonk/choque_-2-47101.mp3"
+        "bank": "guauguau",
+        "n": 11,
+        "url": "guauguau/dogs_1_6701_d.mp3"
     },
     {
         "type": "audio",
-        "bank": "tonk",
-        "n": 2,
-        "url": "tonk/door-43633.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tonk",
-        "n": 3,
-        "url": "tonk/hitting-metel-object-72996.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tonk",
-        "n": 4,
-        "url": "tonk/hutch-hd-sfx-2014-0144-45823.mp3"
+        "bank": "guauguau",
+        "n": 12,
+        "url": "guauguau/group_of_dogs_barking_7013_a.mp3"
     },
     {
         "type": "audio",
         "bank": "baaa",
         "n": 0,
-        "url": "baaa/sheepwav-14453.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tinsh",
-        "n": 0,
-        "url": "tinsh/sci-fi-crash-1-raw-42625.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "punch",
-        "n": 0,
-        "url": "punch/punch-2-37333.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "uow",
-        "n": 0,
-        "url": "uow/wow-113128.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "uow",
-        "n": 1,
-        "url": "uow/yay-6120.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "uow",
-        "n": 2,
-        "url": "uow/yipee-45360.mp3"
+        "url": "baaa/sheepwav_14453.mp3"
     },
     {
         "type": "audio",
         "bank": "aahh",
         "n": 0,
-        "url": "aahh/aaahhhh-crsh-66945.mp3"
+        "url": "aahh/ahhhh_37191.mp3"
     },
     {
         "type": "audio",
-        "bank": "aahh",
-        "n": 1,
-        "url": "aahh/ahhhh-37191.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tictac",
+        "bank": "fuuhh",
         "n": 0,
-        "url": "tictac/clock-ticking-53528.mp3"
+        "url": "fuuhh/clean_fast_swooshaiff_14784_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "tictac",
+        "bank": "fuuhh",
         "n": 1,
-        "url": "tictac/tic-tac-27828.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "shiushi",
-        "n": 0,
-        "url": "shiushi/light-rain-ambient-114354.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "shiushi",
-        "n": 1,
-        "url": "shiushi/owl-hoot-73006.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "shiushi",
-        "n": 2,
-        "url": "shiushi/swamp-67531.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "shiushi",
-        "n": 3,
-        "url": "shiushi/waves-crashing-on-rocks-spray-cu-storm-at-sea-irving-nature-park-190929-48358.mp3"
+        "url": "fuuhh/long_medium_swish_44324_a.mp3"
     },
     {
         "type": "audio",
         "bank": "crish",
         "n": 0,
-        "url": "crish/08-vidrio-45018.mp3"
+        "url": "crish/08_vidrio_45018_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "tak",
-        "n": 0,
-        "url": "tak/rock-knock-46519.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tink",
-        "n": 0,
-        "url": "tink/glass-knock-ding-cutlery-fork-dinner-pack-35586.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tink",
+        "bank": "crish",
         "n": 1,
-        "url": "tink/glass_tink_12-65511.mp3"
+        "url": "crish/08_vidrio_45018_b.mp3"
     },
     {
         "type": "audio",
-        "bank": "tink",
+        "bank": "crish",
         "n": 2,
-        "url": "tink/medal-crash-noises-1-46721.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tink",
-        "n": 3,
-        "url": "tink/metal-crash-44156.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tink",
-        "n": 4,
-        "url": "tink/ride-33246.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tink",
-        "n": 5,
-        "url": "tink/saucepans2-29764.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tink",
-        "n": 6,
-        "url": "tink/shot-glass-clink-toast-26861.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tink",
-        "n": 7,
-        "url": "tink/snd_metal_smash-36688.mp3"
+        "url": "crish/08_vidrio_45018_c.mp3"
     },
     {
         "type": "audio",
         "bank": "fiui",
         "n": 0,
-        "url": "fiui/cyborg-bird-fx-11483.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "zizizizi",
-        "n": 0,
-        "url": "zizizizi/snake-hissing-6092.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "toomm",
-        "n": 0,
-        "url": "toomm/kick-bass-808-drums-loop-6-11282.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tutuntutun",
-        "n": 0,
-        "url": "tutuntutun/train-commuter-99271.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "trikint",
-        "n": 0,
-        "url": "trikint/trinkets-69217.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "triuuii",
-        "n": 0,
-        "url": "triuuii/camera-13695.mp3"
+        "url": "fiui/cyborg_bird_fx_11483.mp3"
     },
     {
         "type": "audio",
         "bank": "biiubiuu",
         "n": 0,
-        "url": "biiubiuu/mouse-6821.mp3"
+        "url": "biiubiuu/mouse_6821_a.mp3"
     },
     {
         "type": "audio",
         "bank": "biiubiuu",
         "n": 1,
-        "url": "biiubiuu/mouse-squeaks-68287.mp3"
+        "url": "biiubiuu/mouse_6821_b.mp3"
     },
     {
         "type": "audio",
-        "bank": "tling",
-        "n": 0,
-        "url": "tling/five-dings-69161.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tling",
-        "n": 1,
-        "url": "tling/glass-clink-pack-62708.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "clik",
-        "n": 0,
-        "url": "clik/click-3-44710.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "clik",
-        "n": 1,
-        "url": "clik/keyboard-clicks-46830.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "clik",
+        "bank": "biiubiuu",
         "n": 2,
-        "url": "clik/mouse-clicks-pc-72689.mp3"
+        "url": "biiubiuu/mouse_squeaks_68287_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "uiiuuu",
-        "n": 0,
-        "url": "uiiuuu/elephant-trumpets-growls-6047.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tuum",
-        "n": 0,
-        "url": "tuum/ani-big-pipe-hit-6814.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "trraass",
-        "n": 0,
-        "url": "trraass/natural-thunder-113219.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "trraass",
-        "n": 1,
-        "url": "trraass/thunder-25689.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "trraass",
-        "n": 2,
-        "url": "trraass/thunder-30846.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "trraass",
+        "bank": "biiubiuu",
         "n": 3,
-        "url": "trraass/thunder_some_rain-57605.mp3"
+        "url": "biiubiuu/mouse_squeaks_68287_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "biiubiuu",
+        "n": 4,
+        "url": "biiubiuu/mouse_squeaks_68287_c.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "clik",
+        "n": 0,
+        "url": "clik/click_3_44710_a.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "clik",
+        "n": 1,
+        "url": "clik/mouse_clicks_pc_72689_a.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "clik",
+        "n": 2,
+        "url": "clik/mouse_clicks_pc_72689_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "clik",
+        "n": 3,
+        "url": "clik/mouse_clicks_pc_72689_c.mp3"
     },
     {
         "type": "audio",
         "bank": "braam",
         "n": 0,
-        "url": "braam/braam-6150.mp3"
+        "url": "braam/braam_6150.mp3"
     },
     {
         "type": "audio",
         "bank": "chukun",
         "n": 0,
-        "url": "chukun/typewriter-64113.mp3"
+        "url": "chukun/typewriter_64113_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "juuhh",
-        "n": 0,
-        "url": "juuhh/clean-fast-swooshaiff-14784.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "juuhh",
+        "bank": "chukun",
         "n": 1,
-        "url": "juuhh/long-medium-swish-44324.mp3"
+        "url": "chukun/typewriter_64113_b.mp3"
     },
     {
         "type": "audio",
-        "bank": "juuhh",
+        "bank": "chukun",
         "n": 2,
-        "url": "juuhh/mouthswipes-66513.mp3"
+        "url": "chukun/typewriter_64113_c.mp3"
     },
     {
         "type": "audio",
-        "bank": "juuhh",
+        "bank": "chukun",
         "n": 3,
-        "url": "juuhh/whoosh-6316.mp3"
+        "url": "chukun/typewriter_64113_d.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "chukun",
+        "n": 4,
+        "url": "chukun/typewriter_64113_e.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "chukun",
+        "n": 5,
+        "url": "chukun/typewriter_64113_f.mp3"
     },
     {
         "type": "audio",
         "bank": "cuak",
         "n": 0,
-        "url": "cuak/075176_duck-quack-40345.mp3"
+        "url": "cuak/075176_duck_quack_40345_a.mp3"
     },
     {
         "type": "audio",
         "bank": "cuak",
         "n": 1,
-        "url": "cuak/duck-caller-45569.mp3"
+        "url": "cuak/duck_caller_45569_a.mp3"
     },
     {
         "type": "audio",
         "bank": "cuak",
         "n": 2,
-        "url": "cuak/duck-quack-112941.mp3"
+        "url": "cuak/duck_caller_45569_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "cuak",
+        "n": 3,
+        "url": "cuak/duck_quack_112941.mp3"
     },
     {
         "type": "audio",
         "bank": "bruubrr",
         "n": 0,
-        "url": "bruubrr/cat-perfect-purr-54580.mp3"
+        "url": "bruubrr/cat_perfect_purr_54580_a.mp3"
     },
     {
         "type": "audio",
         "bank": "bruubrr",
         "n": 1,
-        "url": "bruubrr/cat-purr-6164.mp3"
+        "url": "bruubrr/cat_perfect_purr_54580_b.mp3"
     },
     {
         "type": "audio",
         "bank": "bruubrr",
         "n": 2,
-        "url": "bruubrr/cat-purring-and-suckling-20166.mp3"
+        "url": "bruubrr/cat_purr_6164_a.mp3"
     },
     {
         "type": "audio",
         "bank": "bruubrr",
         "n": 3,
-        "url": "bruubrr/contact-mic-kitten-purr-33560.mp3"
+        "url": "bruubrr/cat_purr_6164_b.mp3"
     },
     {
         "type": "audio",
         "bank": "bruubrr",
         "n": 4,
-        "url": "bruubrr/magpie_purr-37132.mp3"
+        "url": "bruubrr/cat_purr_6164_c.mp3"
     },
     {
         "type": "audio",
         "bank": "bruubrr",
         "n": 5,
-        "url": "bruubrr/purring_cat_02-29526.mp3"
+        "url": "bruubrr/cat_purr_6164_d.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "bruubrr",
+        "n": 6,
+        "url": "bruubrr/cat_purring_and_suckling_20166_a.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "bruubrr",
+        "n": 7,
+        "url": "bruubrr/cat_purring_and_suckling_20166_b.mp3"
     },
     {
         "type": "audio",
         "bank": "fuifuifuii",
         "n": 0,
-        "url": "fuifuifuii/guineapig-47614.mp3"
+        "url": "fuifuifuii/guineapig_47614.mp3"
     },
     {
         "type": "audio",
         "bank": "inkoon",
         "n": 0,
-        "url": "inkoon/donkey-bray-36757.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tomtom",
-        "n": 0,
-        "url": "tomtom/hearbeat-71701.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "turip",
-        "n": 0,
-        "url": "turip/open-doors-114615.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "srisisi",
-        "n": 0,
-        "url": "srisisi/sommer-grille-115530.mp3"
+        "url": "inkoon/donkey_bray_36757_a.mp3"
     },
     {
         "type": "audio",
         "bank": "oink",
         "n": 0,
-        "url": "oink/oink-40664.mp3"
+        "url": "oink/oink_40664_a.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "oink",
+        "n": 1,
+        "url": "oink/oink_40664_b.mp3"
     },
     {
         "type": "audio",
         "bank": "dindundin",
         "n": 0,
-        "url": "dindundin/8-bit-blast-63035.mp3"
+        "url": "dindundin/8_bit_blast_63035_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "prrrprrr",
-        "n": 0,
-        "url": "prrrprrr/blender-72304.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "blublu",
-        "n": 0,
-        "url": "blublu/bubbles-14830.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "blublu",
+        "bank": "dindundin",
         "n": 1,
-        "url": "blublu/dripping-water-nature-sounds-8050.mp3"
+        "url": "dindundin/8_bit_blast_63035_b.mp3"
     },
     {
         "type": "audio",
-        "bank": "shshsh",
-        "n": 0,
-        "url": "shshsh/car-street-noise-68104.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "shshsh",
-        "n": 1,
-        "url": "shshsh/soft-rain-ambient-111154.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "shshsh",
+        "bank": "dindundin",
         "n": 2,
-        "url": "shshsh/water-fall-in-wales-27256.mp3"
+        "url": "dindundin/8_bit_blast_63035_c.mp3"
     },
     {
         "type": "audio",
-        "bank": "trritrri",
+        "bank": "dindundin",
+        "n": 3,
+        "url": "dindundin/8_bit_blast_63035_d.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "dindundin",
+        "n": 4,
+        "url": "dindundin/8_bit_blast_63035_e.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "dindundin",
+        "n": 5,
+        "url": "dindundin/8_bit_blast_63035_f.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "blublu",
         "n": 0,
-        "url": "trritrri/065523_animal_cicada_solo_loopwav-40408.mp3"
+        "url": "blublu/dripping_water_nature_sounds_8050_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "gluglu",
-        "n": 0,
-        "url": "gluglu/draining_water-72763.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "gluglu",
+        "bank": "blublu",
         "n": 1,
-        "url": "gluglu/river-flowing-over-rocks-71386.mp3"
+        "url": "blublu/dripping_water_nature_sounds_8050_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "blublu",
+        "n": 2,
+        "url": "blublu/dripping_water_nature_sounds_8050_c.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "blublu",
+        "n": 3,
+        "url": "blublu/dripping_water_nature_sounds_8050_d.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "blublu",
+        "n": 4,
+        "url": "blublu/dripping_water_nature_sounds_8050_e.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "blublu",
+        "n": 5,
+        "url": "blublu/dripping_water_nature_sounds_8050_f.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "blublu",
+        "n": 6,
+        "url": "blublu/dripping_water_nature_sounds_8050_g.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "blublu",
+        "n": 7,
+        "url": "blublu/dripping_water_nature_sounds_8050_h.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "blublu",
+        "n": 8,
+        "url": "blublu/dripping_water_nature_sounds_8050_i.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "blublu",
+        "n": 9,
+        "url": "blublu/dripping_water_nature_sounds_8050_j.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "blublu",
+        "n": 10,
+        "url": "blublu/dripping_water_nature_sounds_8050_k.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "gluglu",
+        "n": 0,
+        "url": "gluglu/river_flowing_over_rocks_71386.mp3"
     },
     {
         "type": "audio",
         "bank": "jiik",
         "n": 0,
-        "url": "jiik/male-hiccup-67892.mp3"
+        "url": "jiik/male_hiccup_67892_a.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "jiik",
+        "n": 1,
+        "url": "jiik/male_hiccup_67892_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "jiik",
+        "n": 2,
+        "url": "jiik/male_hiccup_67892_c.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "jiik",
+        "n": 3,
+        "url": "jiik/male_hiccup_67892_d.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "jiik",
+        "n": 4,
+        "url": "jiik/male_hiccup_67892_e.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "jiik",
+        "n": 5,
+        "url": "jiik/male_hiccup_67892_f.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "jiik",
+        "n": 6,
+        "url": "jiik/male_hiccup_67892_g.mp3"
     },
     {
         "type": "audio",
         "bank": "iuueu",
         "n": 0,
-        "url": "iuueu/whining-dog-6110.mp3"
+        "url": "iuueu/whining_dog_6110_a.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "iuueu",
+        "n": 1,
+        "url": "iuueu/whining_dog_6110_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "iuueu",
+        "n": 2,
+        "url": "iuueu/whining_dog_6110_c.mp3"
     },
     {
         "type": "audio",
         "bank": "chuinn",
         "n": 0,
-        "url": "chuinn/knife-sounds-28937.mp3"
+        "url": "chuinn/knife_sounds_28937_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "tirariru",
-        "n": 0,
-        "url": "tirariru/break_robot-61522.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tirariru",
+        "bank": "chuinn",
         "n": 1,
-        "url": "tirariru/pixel-death-66829.mp3"
+        "url": "chuinn/knife_sounds_28937_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "chuinn",
+        "n": 2,
+        "url": "chuinn/knife_sounds_28937_c.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "chuinn",
+        "n": 3,
+        "url": "chuinn/knife_sounds_28937_d.mp3"
     },
     {
         "type": "audio",
         "bank": "oh",
         "n": 0,
-        "url": "oh/growl-old-men-42721.mp3"
+        "url": "oh/growl_old_men_42721_a.mp3"
     },
     {
         "type": "audio",
         "bank": "oh",
         "n": 1,
-        "url": "oh/old-lady-onomatopeyia-42717.mp3"
+        "url": "oh/old_lady_onomatopeyia_42717_a.mp3"
     },
     {
         "type": "audio",
         "bank": "crash",
         "n": 0,
-        "url": "crash/breaking-bones-38128.mp3"
+        "url": "crash/breaking_bones_38128_a.mp3"
     },
     {
         "type": "audio",
         "bank": "crash",
         "n": 1,
-        "url": "crash/breaking-glass-2-38457.mp3"
+        "url": "crash/breaking_glass_3_36752_a.mp3"
     },
     {
         "type": "audio",
         "bank": "crash",
         "n": 2,
-        "url": "crash/breaking-glass-3-36752.mp3"
+        "url": "crash/crash_47783_a.mp3"
     },
     {
         "type": "audio",
         "bank": "crash",
         "n": 3,
-        "url": "crash/crash-47783.mp3"
+        "url": "crash/crash_6711_a.mp3"
     },
     {
         "type": "audio",
         "bank": "crash",
         "n": 4,
-        "url": "crash/crash-6711.mp3"
+        "url": "crash/glass_break_39356_a.mp3"
     },
     {
         "type": "audio",
         "bank": "crash",
         "n": 5,
-        "url": "crash/crash-glass-sound-effect-24-11503.mp3"
+        "url": "crash/glass_smash_72436_a.mp3"
     },
     {
         "type": "audio",
         "bank": "crash",
         "n": 6,
-        "url": "crash/glass-break-39356.mp3"
+        "url": "crash/glass_smash_72436_b.mp3"
     },
     {
         "type": "audio",
         "bank": "crash",
         "n": 7,
-        "url": "crash/glass-break-5978.mp3"
+        "url": "crash/glass_smash_72436_c.mp3"
     },
     {
         "type": "audio",
         "bank": "crash",
         "n": 8,
-        "url": "crash/glass_smash-72436.mp3"
+        "url": "crash/glass_smash_72436_d.mp3"
     },
     {
         "type": "audio",
         "bank": "crash",
         "n": 9,
-        "url": "crash/jar-smash-46764.mp3"
+        "url": "crash/glass_smash_72436_e.mp3"
     },
     {
         "type": "audio",
-        "bank": "shiuushaaa",
-        "n": 0,
-        "url": "shiuushaaa/roughsea-56476.mp3"
+        "bank": "crash",
+        "n": 10,
+        "url": "crash/glass_smash_72436_f.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "crash",
+        "n": 11,
+        "url": "crash/jar_smash_46764_a.mp3"
     },
     {
         "type": "audio",
         "bank": "iaaaa",
         "n": 0,
-        "url": "iaaaa/goat-amazing-sound-effects-12537.mp3"
+        "url": "iaaaa/goat_amazing_sound_effects_12537_a.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "iaaaa",
+        "n": 1,
+        "url": "iaaaa/goat_amazing_sound_effects_12537_b.mp3"
     },
     {
         "type": "audio",
         "bank": "auu",
         "n": 0,
-        "url": "auu/howl-31353.mp3"
+        "url": "auu/howl_31353_a.mp3"
     },
     {
         "type": "audio",
         "bank": "auu",
         "n": 1,
-        "url": "auu/howl_echo-71422.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tiruriruin",
-        "n": 0,
-        "url": "tiruriruin/harp-glissando-down-69334.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "krikri",
-        "n": 0,
-        "url": "krikri/night-ambience-17064.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tulinnn",
-        "n": 0,
-        "url": "tulinnn/correct-2-46134.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tulinnn",
-        "n": 1,
-        "url": "tulinnn/correct-choice-43861.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tulinnn",
-        "n": 2,
-        "url": "tulinnn/decidemp3-14575.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tulinnn",
-        "n": 3,
-        "url": "tulinnn/ding-36029.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tulinnn",
-        "n": 4,
-        "url": "tulinnn/ding-idea-40142.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tuk",
-        "n": 0,
-        "url": "tuk/cheap-blade-metal-on-wood-clank-26864.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tuk",
-        "n": 1,
-        "url": "tuk/glass-knock-71787.mp3"
+        "url": "auu/howl_31353_b.mp3"
     },
     {
         "type": "audio",
         "bank": "iuiuiuiu",
         "n": 0,
-        "url": "iuiuiuiu/alarm-110066.mp3"
+        "url": "iuiuiuiu/alarm_110066_a.mp3"
     },
     {
         "type": "audio",
-        "bank": "tilintilin",
-        "n": 0,
-        "url": "tilintilin/2-small_bells-71487.mp3"
+        "bank": "iuiuiuiu",
+        "n": 1,
+        "url": "iuiuiuiu/alarm_110066_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "iuiuiuiu",
+        "n": 2,
+        "url": "iuiuiuiu/alarm_110066_c.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "iuiuiuiu",
+        "n": 3,
+        "url": "iuiuiuiu/alarm_110066_d.mp3"
     },
     {
         "type": "audio",
         "bank": "beep",
         "n": 0,
-        "url": "beep/bleep-41488.mp3"
+        "url": "beep/bleep_41488.mp3"
     },
     {
         "type": "audio",
         "bank": "ja",
         "n": 0,
-        "url": "ja/evil-shreik-45560.mp3"
+        "url": "ja/evil_shreik_45560_a.mp3"
     },
     {
         "type": "audio",
         "bank": "ja",
         "n": 1,
-        "url": "ja/hysterical-laughter-73517.mp3"
+        "url": "ja/hysterical_laughter_73517_a.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "ja",
+        "n": 2,
+        "url": "ja/hysterical_laughter_73517_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "ja",
+        "n": 3,
+        "url": "ja/hysterical_laughter_73517_c.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "ja",
+        "n": 4,
+        "url": "ja/hysterical_laughter_73517_d.mp3"
     },
     {
         "type": "audio",
         "bank": "arg",
         "n": 0,
-        "url": "arg/grunidoenfermera-42740.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tritiing",
-        "n": 0,
-        "url": "tritiing/bike-bell-71785.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "tinb",
-        "n": 0,
-        "url": "tinb/sound-effects-finger-snap-with-reverb-113861.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "zick",
-        "n": 0,
-        "url": "zick/blade-on-wood-metal-clank-tink-63689.mp3"
+        "url": "arg/grunidoenfermera_42740.mp3"
     },
     {
         "type": "audio",
         "bank": "cocoococoo",
         "n": 0,
-        "url": "cocoococoo/chicken-alarm-call-full-with-occasional-bird-sound-6379.mp3"
+        "url": "cocoococoo/chicken_alarm_call_full_with_occasional_bird_sound_6379_a.mp3"
     },
     {
         "type": "audio",
         "bank": "cocoococoo",
         "n": 1,
-        "url": "cocoococoo/chicken-single-alarm-call-6056.mp3"
+        "url": "cocoococoo/chicken_alarm_call_full_with_occasional_bird_sound_6379_b.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "cocoococoo",
+        "n": 2,
+        "url": "cocoococoo/chicken_alarm_call_full_with_occasional_bird_sound_6379_c.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "cocoococoo",
+        "n": 3,
+        "url": "cocoococoo/chicken_alarm_call_full_with_occasional_bird_sound_6379_d.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "cocoococoo",
+        "n": 4,
+        "url": "cocoococoo/chicken_alarm_call_full_with_occasional_bird_sound_6379_e.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "cocoococoo",
+        "n": 5,
+        "url": "cocoococoo/chicken_single_alarm_call_6056.mp3"
     },
     {
         "type": "audio",
         "bank": "je",
         "n": 0,
-        "url": "je/yeah-boy-memes-comedy-funny-amusing-jokes-114748.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "mmm",
-        "n": 0,
-        "url": "mmm/olfateosenora-42741.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "pop",
-        "n": 0,
-        "url": "pop/pop-39222.mp3"
-    },
-    {
-        "type": "audio",
-        "bank": "shiiee",
-        "n": 0,
-        "url": "shiiee/eagle-scream-112940.mp3"
+        "url": "je/yeah_boy_memes_comedy_funny_amusing_jokes_114748.mp3"
     }
 ]
