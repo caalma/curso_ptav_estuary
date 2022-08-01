@@ -30,33 +30,3 @@ Pueden utilizarse con CineCer0, Hydra y Punctual.
 + `https://caalma.github.io/curso_ptav_estuary/video/tapita_giro_02.mp4`
 + `https://caalma.github.io/curso_ptav_estuary/video/tapita_giro_03.mp4`
 + `https://caalma.github.io/curso_ptav_estuary/video/aglomeracion_01.mp4`
-
-## Alfabeto stopmotion con tapitas de gaseosas
-
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/a.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/b.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/c.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/d.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/e.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/f.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/g.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/h.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/i.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/j.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/k.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/l.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/m.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/n.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/nn.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/o.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/p.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/q.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/r.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/s.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/t.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/u.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/v.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/w.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/x.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/y.mp4`
-+ `https://caalma.github.io/curso_ptav_estuary/video/alfabetapita/z.mp4`
