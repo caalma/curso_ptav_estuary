@@ -19,6 +19,9 @@
 	raiz=$(pwd); for carpeta in *;do cd $carpeta; echo $(pwd); ffmpeg -f image2 -pattern_type glob -i './*.jpg' -b 8000k -r 6 ../$(basename $(pwd)).mov; cd $raiz; done
 
 
+	raiz=$(pwd); for carpeta in *;do cd $carpeta; echo $(pwd); for a in *.flac; do ffmpeg -i "$a" $(basename "$a" .flac).mp3 ; done ; rm *.flac;  cd $raiz; done
+
+
 ## Recortar y redimensionr video
 
 	arc_a='video.mp4';
