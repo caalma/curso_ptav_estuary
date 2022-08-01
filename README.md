@@ -2,9 +2,10 @@
 
 ## Sumario
 
-+ [AUDIO](./audio/) : Recursos de audio para livecoding.
-+ [VIDEO](./video/) : Recursos de video para livecoding.
-+ [IMAGEN](./imagen/) : Recursos de imagen para livecoding.
-+ [ÚTILES](./utiles/) : Compilado de scripts y comandos para administrar el repositorio y los recursos.
-+ [DOCUMENTACIÓN](./documentacion/) : Compilado de documentaciones y notas.
-+ [TEST](./test/) : Pruebas sobre la formatos soportados y características de Estuary.
++ [Audio](./audio/) : Recursos de audio para livecoding.
++ [Video](./video/) : Recursos de video para livecoding.
++ [Imagen](./imagen/) : Recursos de imagen para livecoding.
++ [JSoLang](./jsolang/) : Lenguajes personalizados para livecoding.
++ [Útiles](./utiles/) : Compilado de scripts y comandos para administrar el repositorio y los recursos.
++ [Documentación](./documentacion/) : Compilado de documentaciones y notas.
++ [Test](./test/) : Pruebas sobre la formatos soportados y características de Estuary.

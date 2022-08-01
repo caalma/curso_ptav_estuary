@@ -1,0 +1,99 @@
+##JSoLang onomatopeya
+{{
+  // variables y funciones de entorno
+  var dat = {'inst':[], 'ritm':[], 'fxizq':[], 'fxder':[]};
+  var instrumentos = {
+    'percu': 'hh',
+    'cuerda': 'bass',
+    'pajarito': 'birds'
+  };
+  var ritmos = {
+    'lento': 1,
+    'rapido': 12,
+    'normal': 4
+  };
+
+  var fx_izquierda = {
+    'estirar': 'slow 3 $',
+    'acortar': 'fast 3 $',
+  };
+
+  var fx_derecha = {
+    'shh!': '# silence',
+    'alto': '# gain 1.5',
+    'bajo': '# gain 0.7',
+    'tarareado': '# n (irand 12)'
+  };
+
+  var agr = function(v, g){
+    dat[g].push(v)
+  }
+
+  var res = function(){
+    var r_inst = [],
+        r_fxizq = [],
+        r_fxder = [];
+    var r_ritm = '';
+    var p, i = '';
+    for(i in dat['inst']){
+       p = dat['inst'][i];
+       r_inst.push(instrumentos[p]);
+    }
+    if(dat['ritm'].length === 0){
+    	r_ritm = ritmos['normal'];
+    }else{
+        // el ultimo ritmo nombrado
+    	r_ritm = ritmos[dat['ritm'][dat['ritm'].length - 1]];
+    }
+
+    if(dat['fxizq'].length === 0){
+    	r_fxizq = [];
+    }else{
+ 	  for(i in dat['fxizq']){
+      	p = dat['fxizq'][i];
+       	r_fxizq.push(fx_izquierda[p]);
+      }
+      r_fxizq.push('');
+    }
+
+    if(dat['fxder'].length === 0){
+    	r_fxder = [];
+    }else{
+      r_fxder.push('');
+ 	  for(i in dat['fxder']){
+      	p = dat['fxder'][i];
+       	r_fxder.push(fx_derecha[p]);
+      }
+    }
+
+    return '##miniTidal\n'
+            + r_fxizq.join(' ')
+    		+ 's "['
+            + r_inst.join(' ')
+            + ']*' + r_ritm +'"'
+            + r_fxder.join(' ')
+            ;
+  }
+}}
+
+// reglas de lenguaje
+
+composicion = (instrumento / ritmo / fxizq / fxder / sep / ignorar)*
+              { return res() }
+
+instrumento = s:( 'percu' / 'cuerda' / 'pajarito' )
+              { agr(s, 'inst') }
+
+ritmo = s:( 'rapido' / 'lento' / 'normal' )
+        { agr(s, 'ritm')}
+
+fxizq = s:('estirar' / 'acortar')
+         { agr(s, 'fxizq')}
+
+fxder = s:('shh!' / 'alto' / 'bajo' / 'tarareado')
+         { agr(s, 'fxder')}
+
+sep = ' ' / ',' / '.'  { return '' }
+
+comentado = ('_'[^\n.]*'\n'*) { return '' }
+ignorar = '##testeito' / '\n' / comentado { return '' }

@@ -1,0 +1,90 @@
+##JSoLang textapita
+{
+    var cfg = {
+    	'ruta_video': '"https://caalma.github.io/curso_ptav_estuary/jsolangs/textapita/videos/'
+    }
+
+    var dat = {
+    	'textos': [],
+    	'modificadores': []
+    }
+
+    var agregar = function(v, g){
+    	dat[g].push(v);
+    }
+
+    var gen_video = function(v){
+    	v = v.toLowerCase();
+    	v = v === 'ñ' ? 'nn' : v;
+    	return ['video ', cfg['ruta_video'] ,v ,'.mp4"'].join('');
+    }
+
+    var gen_texto_random = function(){
+    	var ss = '#$%&/()=!*+?¡¿';
+        var l = ss[Math.round(Math.random() * (ss.length-1))];
+        return ['text "', l ,'"'].join('');
+    }
+
+    var gen_tamannio = function(v){
+    	return ['setSize ', v].join('');
+    }
+
+    var gen_posicion = function(px, py, dx, dy){
+     	var col = (2/dx);
+        var x = (-1 + (px * col + col )).toFixed(2);
+        var y = py;
+	return ['setCoord (', x, ') (', y, ')'].join('');
+    }
+
+    var aplanar = function(l, e){
+    	if(!e){ return l; }
+     	return [
+            '##cinecer0\n',
+	    l.join(';\n')
+        ].join('\n');
+    }
+
+    var resultado = function(){
+    	var l = '',
+            elem = [],
+            l_textos = [],
+            linea_texto = dat['textos'][0];
+        var i = 0;
+     	for(i in linea_texto){
+            elem = [];
+            l = linea_texto[i];
+	    elem.push(gen_posicion(i, 0, linea_texto.length + 2));
+            if(l.toUpperCase() === l){
+            	elem.push(gen_tamannio(0.3));
+            }else{
+		elem.push(gen_tamannio(0.2));
+            }
+            if(l === ' '){
+                elem.push(gen_texto_random());
+            }else{
+	        elem.push(gen_video(l));
+            }
+
+            l_textos.push(elem.join(' $ '));
+        }
+
+        return aplanar(l_textos, 1);
+    }
+}
+
+
+composicion = (modificadores / texto / ignorar)*
+              { return resultado() }
+
+modificadores = (':'modificador)
+
+modificador = m:('centrado' / 'disperso' / 'ondulante')
+              { agregar(m, 'modificadores') }
+
+texto = t:('[' signos ']')
+        { return t }
+
+signos = s:('ñ' / [A-Za-z ])* { agregar(s, 'textos') }
+
+ignorar = s:(. / ' ' / '\n' )
+          { return s }
