@@ -1,6 +1,8 @@
 ##JSoLang onomatopeya
-{{
+
+{
     // variables y funciones de entorno
+
     var dat = {'inst':[], 'ritm':[], 'fxizq':[], 'fxder':[]};
     var ritmos = {
 	'lento': 1,
@@ -14,7 +16,7 @@
     };
 
     var fx_derecha = {
-	'shh!': 'silence',
+	'h!': 'silence',
     };
 
     var ritmo = {'aum': 0, 'dis': 0};
@@ -38,11 +40,15 @@
             r_fxizq = [],
             r_fxder = [];
 	var r_ritm = '';
-	var p, i = '';
+	var p, n, m, i = '';
 	for(i in dat['inst']){
-	    p = dat['inst'][i];
-            p = p === '=' ? '~' : p;
-	    r_inst.push(p);
+	    p = dat['inst'][i][0].toLowerCase();
+        p = p === '=' ? '~' : p;
+	    n = dat['inst'][i][1];
+    	n = n.length == 0 ? '' : ':' + n;
+        m = dat['inst'][i][2];
+    	m = m.length == 0 ? '' : '*' + m;
+	    r_inst.push(p + n + m);
 	}
 
 	var r_ritm = 1 + ritmo['aum'] - ritmo['dis'];
@@ -53,7 +59,7 @@
  	    for(i in dat['fxizq']){
       		p = dat['fxizq'][i];
 		if( p.startsWith('/')){
-        	    p = p.replace('/', 'fast ')
+        	p = p.replace('/', 'fast ')
 		}else if ( p.startsWith('*')){
 		    p = p.replace('*', 'slow ')
 		}
@@ -65,12 +71,12 @@
     	    r_fxder = [];
 	}else{
  	    for(i in dat['fxder']){
-      		p = dat['fxder'][i];
+      		p = dat['fxder'][i].toLowerCase();
        		r_fxder.push(fx_derecha[p]);
 	    }
 	}
-	r_fxder.push('pan '+ (paneo['der'] -  paneo['izq']));
-	r_fxder.push('gain '+ (1 + volumen['aum'] - volumen['dis']));
+	r_fxder.push('pan ('+ (paneo['der'] -  paneo['izq']).toFixed(2) + ')');
+	r_fxder.push('gain ('+ (1 + volumen['aum'] - volumen['dis']).toFixed(2) + ')');
 
     var u_i = r_fxizq.length === 0 ? '' : ' $ ';
     var u_d = r_fxder.length === 0 ? '' : ' # ';
@@ -86,29 +92,30 @@
             + r_fxder.join(' # ')
         ;
     }
-}}
+}
 
 // reglas de lenguaje
 
 composicion = (instrumento / ritmo / fxizq / fxder / paneo / volumen
-	       / sep / ignorar)*
+	       / ignorar)*
                { return res() }
 
-instrumento = s:( s_silencio
-                / 'aahh' / 'arg' / 'auu' / 'baaa' / 'bbbddd' / 'beep' / 'biiubiuu' / 'biukbuik'
-                / 'blublu' / 'braam' / 'bruubrr' / 'chuinn' / 'chukun' / 'clik' / 'cocoococoo'
-                / 'crack' / 'crash' / 'crish' / 'cuak' / 'dindundin' / 'fiui' / 'fuifuifuii'
-                / 'fuuhh' / 'gluglu' / 'gruar' / 'grugrr' / 'guauguau' / 'guiin' / 'hiiee'
-                / 'iaaaa' / 'inkoon' / 'iuiuiuiu' / 'iuueu' / 'ja' / 'je' / 'jiik' / 'jojujujuju'
-                / 'kash' / 'oh' / 'oink' / 'pashh' / 'piopi' / 'pop' / 'prrrprrr' / 'punch'
-                / 'punn' / 'shaa' / 'shii' / 'shsh' / 'snrrrss' / 'srisisi' / 'tak' / 'tang'
-                / 'tictac' / 'tilintilin' / 'tinb' / 'tink' / 'tinkunbin' / 'tinsh' / 'tirariru'
-                / 'tiruriruin' / 'tling' / 'tomtom' / 'tonb' / 'tonk' / 'toomm' / 'trikint'
-                / 'tritiing' / 'triuuii' / 'trraass' / 'trritrri' / 'trtrtrtr' / 'tuk' / 'tulinnn'
-                / 'turip' / 'tuum' / 'uiiuuu' / 'uops' / 'uow' / 'yuayua' / 'zick' / 'zizizizi'
-		) { agr(s, 'inst') }
+instrumento = m:(entero*)s:( silencio / audios )n:(entero*)
+              { agr([s, n, m], 'inst') }
 
-s_silencio = '='
+audios = 'aahh'i / 'arg'i / 'auu'i / 'baaa'i / 'bbbddd'i / 'beep'i / 'biiubiuu'i / 'biukbuik'i
+         / 'blublu'i / 'braam'i / 'bruubrr'i / 'chuinn'i / 'chukun'i / 'clik'i / 'cocoococoo'i
+         / 'crack'i / 'crash'i / 'crish'i / 'cuak'i / 'dindundin'i / 'fiui'i / 'fuifuifuii'i
+         / 'fuuhh'i / 'gluglu'i / 'gruar'i / 'grugrr'i / 'guauguau'i / 'guiin'i / 'hiiee'i
+         / 'iaaaa'i / 'inkoon'i / 'iuiuiuiu'i / 'iuueu'i / 'ja'i / 'je'i / 'jiik'i / 'jojujujuju'i
+         / 'kash'i / 'oh'i / 'oink'i / 'pashh'i / 'piopi'i / 'pop'i / 'prrrprrr'i / 'punch'i
+         / 'punn'i / 'shaa'i / 'shii'i / 'shsh'i / 'snrrrss'i / 'srisisi'i / 'tak'i / 'tang'i
+         / 'tictac'i / 'tilintilin'i / 'tinb'i / 'tink'i / 'tinkunbin'i / 'tinsh'i / 'tirariru'i
+         / 'tiruriruin'i / 'tling'i / 'tomtom'i / 'tonb'i / 'tonk'i / 'toomm'i / 'trikint'i
+         / 'tritiing'i / 'triuuii'i / 'trraass'i / 'trritrri'i / 'trtrtrtr'i / 'tuk'i / 'tulinnn'i
+         / 'turip'i / 'tuum'i / 'uiiuuu'i / 'uops'i / 'uow'i / 'yuayua'i / 'zick'i / 'zizizizi'i
+
+silencio = '='
 
 ritmo = (rit_aum / rit_dis)
 rit_aum = s:'+' { return rit_a() }
@@ -120,11 +127,8 @@ fxizq = s:( m_dur )
 m_dur = s:(s_dur entero) { return s.join('') }
 s_dur = ('/' / '*')
 
-
-fxder = s:('shh!' )
+fxder = s:('H!'i )
 { agr(s, 'fxder')}
-
-
 
 volumen = (vol_aum / vol_dis)
 vol_aum = s:')' { return vol_a() }
@@ -134,8 +138,9 @@ paneo = (pan_izq / pan_der)
 pan_izq = s:'<' { return pan_i() }
 pan_der = s:'>' { return pan_d() }
 
-sep = ' ' / ',' / '.'  { return '' }
+//sep = ' ' / ',' / '.'  { return '' }
 
-comentado = ('_'[^\n.]*'\n'*) { return '' }
-ignorar = '##testeito' / '\n' / comentado { return '' }
+comentado = ('_'[^ .]) { return '' }
+otras_cosas = .
+ignorar = '##onomatopeya' / '\n' / comentado / otras_cosas { return '' }
 entero = n:[0-9]+ { return n.join('') }

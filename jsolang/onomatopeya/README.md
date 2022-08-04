@@ -15,9 +15,17 @@ Consiste en un catálogo de palabras onomatopéyicas que funcionan como símbolo
 Admite apilado de patrones para que suenen en simultaneo. Los modificadores afectan a cada capa.
 
 Entre los modificadores incluidos están el volumen, paneo, duración del ciclo, silenciar todo.
+
 La posición de los modificadores es indistinta pudiendo estar entremezcladas con los propios samples.
+
 Algunos modificadores, como el volumen y el paneo sonacumulativos.
 
+La llamada a los audios no distingue entre mayúsculas y minúsculas.
+Pero cualquier otra palabra o signo que no coincida con los instrumentos o los modificadores directamente será ignorada pudiendo estar presente por caracter estético del texto.
+
+Al llamar a los audios puede agregarse de forma sufija y posfija. El entero sufijo actua como multiplicador del audio y el posfijo como index selector dentro del banco de audio solicitado.
+
+El código del JSoLang Onomatopeya está [aquí](./onomatopeya.peg).
 
 
 ## Características
@@ -39,9 +47,10 @@ Algunos modificadores, como el volumen y el paneo sonacumulativos.
 	/2 /3
 	*2 *3
 
-	_ritmo
+	_ritmo_aumentado
 	+ ++ +++
 	- -- ---
+	_ritmo_negativo
 
 	_samples_sonoros
 	aahh arg auu baaa bbbddd beep biiubiuu biukbuik blublu braam bruubrr chuinn
@@ -53,7 +62,7 @@ Algunos modificadores, como el volumen y el paneo sonacumulativos.
 	trritrri trtrtrtr tuk tulinnn turip tuum uiiuuu uops uow yuayua zick zizizizi
 
 
-	_sample_silencio FALTA
+	_sample_silencio
 	=
 
 	_separador_de_capas FALTA
@@ -65,6 +74,14 @@ Esta banco de samples con onomatopeyas asociadas. Debe importarse desde la conso
 
 	!reslist "https://caalma.github.io/curso_ptav_estuary/jsolang/onomatopeya/audios/samples.json"
 
+
+## Ejemplo de uso
+
+	##onomatopeya
+	(((())))))
+	2tink2 3tink4 == pop POP1 2pop2 3=
+	><<<>><<<<>>>>>>
+	H!
 
 ## Créditos
 Los audios fueron obtenidos de https://pixabay.com/sound-effects/ y editados utilizando Audacity.

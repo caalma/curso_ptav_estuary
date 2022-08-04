@@ -34,6 +34,8 @@ Modificadores de composición:
 
 Cualquier otro signo escrito será ignorado por el parser.
 
+El código del JSoLang Textapita está [aquí](./textapita.peg).
+
 
 ## Ejemplos:
 
