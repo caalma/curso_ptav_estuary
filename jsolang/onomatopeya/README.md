@@ -79,10 +79,10 @@ Esta banco de samples con onomatopeyas asociadas. Debe importarse desde la conso
 ## Ejemplo de uso
 
 	##onomatopeya
-	(((())))))
-	2tink2 3shii4 == zick POP1 2pop2 3=
+	)))(((()))
+	2tink4 2zick 4=  tonb4 POP1 2Pop2 3Chukun =
 	><<<>><<<<>>>>>>
-	H!
+	_H!
 
 ## Créditos
 Los audios fueron obtenidos de https://pixabay.com/sound-effects/ y editados utilizando Audacity.
