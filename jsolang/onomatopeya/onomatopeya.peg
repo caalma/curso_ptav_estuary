@@ -95,12 +95,17 @@ composicion = (instrumento / ritmo / fxizq / fxder / paneo / volumen
                { return res() }
 
 instrumento = s:( s_silencio
-		  / 'aahh' / 'arg' / 'auu' / 'baaa' / 'bbbddd' / 'beep' / 'biiubiuu' / 'biukbuik'
-		  / 'blublu' / 'braam' / 'bruubrr' / 'chuinn' / 'chukun' / 'clik' / 'cocoococoo'
-		  / 'crack' / 'crash' / 'crish' / 'cuak' / 'dindundin' / 'fiui' / 'fuifuifuii'
-		  / 'fuuhh' / 'gluglu' / 'gruar' / 'grugrr' / 'guauguau' / 'guiin' / 'iaaaa'
-		  / 'inkoon' / 'iuiuiuiu' / 'iuueu' / 'ja' / 'je' / 'jiik' / 'jojujujuju'
-		  / 'kash' / 'oh' / 'oink' / 'pashh'
+                / 'aahh' / 'arg' / 'auu' / 'baaa' / 'bbbddd' / 'beep' / 'biiubiuu' / 'biukbuik'
+                / 'blublu' / 'braam' / 'bruubrr' / 'chuinn' / 'chukun' / 'clik' / 'cocoococoo'
+                / 'crack' / 'crash' / 'crish' / 'cuak' / 'dindundin' / 'fiui' / 'fuifuifuii'
+                / 'fuuhh' / 'gluglu' / 'gruar' / 'grugrr' / 'guauguau' / 'guiin' / 'hiiee'
+                / 'iaaaa' / 'inkoon' / 'iuiuiuiu' / 'iuueu' / 'ja' / 'je' / 'jiik' / 'jojujujuju'
+                / 'kash' / 'oh' / 'oink' / 'pashh' / 'piopi' / 'pop' / 'prrrprrr' / 'punch'
+                / 'punn' / 'shaa' / 'shii' / 'shsh' / 'snrrrss' / 'srisisi' / 'tak' / 'tang'
+                / 'tictac' / 'tilintilin' / 'tinb' / 'tink' / 'tinkunbin' / 'tinsh' / 'tirariru'
+                / 'tiruriruin' / 'tling' / 'tomtom' / 'tonb' / 'tonk' / 'toomm' / 'trikint'
+                / 'tritiing' / 'triuuii' / 'trraass' / 'trritrri' / 'trtrtrtr' / 'tuk' / 'tulinnn'
+                / 'turip' / 'tuum' / 'uiiuuu' / 'uops' / 'uow' / 'yuayua' / 'zick' / 'zizizizi'
 		) { agr(s, 'inst') }
 
 s_silencio = '='

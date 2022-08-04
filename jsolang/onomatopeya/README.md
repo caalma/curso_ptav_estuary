@@ -44,10 +44,14 @@ Algunos modificadores, como el volumen y el paneo sonacumulativos.
 	- -- ---
 
 	_samples_sonoros
-	aahh arg auu baaa bbbddd beep biiubiuu biukbuik blublu braam bruubrr
-	chuinn chukun clik cocoococoo crack crash crish cuak dindundin
-	fiui fuifuifuii fuuhh gluglu gruar grugrr guauguau guiin iaaaa
-	inkoon iuiuiuiu iuueu ja je jiik jojujujuju kash oh oink pashh
+	aahh arg auu baaa bbbddd beep biiubiuu biukbuik blublu braam bruubrr chuinn
+	chukun clik cocoococoo crack crash crish cuak dindundin fiui fuifuifuii fuuhh
+	gluglu gruar grugrr guauguau guiin hiiee iaaaa inkoon iuiuiuiu iuueu ja je jiik
+	jojujujuju kash oh oink pashh piopi pop prrrprrr punch punn shaa shii shsh
+	snrrrss srisisi tak tang tictac tilintilin tinb tink tinkunbin tinsh tirariru
+	tiruriruin tling tomtom tonb tonk toomm trikint tritiing triuuii trraass
+	trritrri trtrtrtr tuk tulinnn turip tuum uiiuuu uops uow yuayua zick zizizizi
+
 
 	_sample_silencio FALTA
 	=
@@ -59,7 +63,7 @@ Algunos modificadores, como el volumen y el paneo sonacumulativos.
 
 Esta banco de samples con onomatopeyas asociadas. Debe importarse desde la consola de Estuary con el siguiente comando:
 
-	!reslist "https://caalma.github.io/curso_ptav_estuary/jsolang/onomatopeya/samples/samples.json"
+	!reslist "https://caalma.github.io/curso_ptav_estuary/jsolang/onomatopeya/audios/samples.json"
 
 
 ## Créditos
