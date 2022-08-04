@@ -59,3 +59,9 @@ Con modificadores:
 
 	##textapita
 	centro [texTapita] ondula-y
+
+
+## FALTA
+
++ Implementar separación de lineas.
++ Implementar modificadores.
