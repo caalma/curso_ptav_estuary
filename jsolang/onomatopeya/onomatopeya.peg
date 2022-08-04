@@ -96,14 +96,15 @@
 
 // reglas de lenguaje
 
-composicion = (instrumento / ritmo / fxizq / fxder / paneo / volumen
-	       / ignorar)*
-               { return res() }
+composicion = capa { return res() }
 
-instrumento = m:(entero*)s:( silencio / audios )n:(entero*)
+capa = (frase / ritmo / fxizq / fxder / paneo / volumen
+	       / ignorar)*
+
+frase = m:(entero*)s:( silencio / sonido )n:(entero*)
               { agr([s, n, m], 'inst') }
 
-audios = 'aahh'i / 'arg'i / 'auu'i / 'baaa'i / 'bbbddd'i / 'beep'i / 'biiubiuu'i / 'biukbuik'i
+sonido = 'aahh'i / 'arg'i / 'auu'i / 'baaa'i / 'bbbddd'i / 'beep'i / 'biiubiuu'i / 'biukbuik'i
          / 'blublu'i / 'braam'i / 'bruubrr'i / 'chuinn'i / 'chukun'i / 'clik'i / 'cocoococoo'i
          / 'crack'i / 'crash'i / 'crish'i / 'cuak'i / 'dindundin'i / 'fiui'i / 'fuifuifuii'i
          / 'fuuhh'i / 'gluglu'i / 'gruar'i / 'grugrr'i / 'guauguau'i / 'guiin'i / 'hiiee'i
@@ -138,9 +139,9 @@ paneo = (pan_izq / pan_der)
 pan_izq = s:'<' { return pan_i() }
 pan_der = s:'>' { return pan_d() }
 
-//sep = ' ' / ',' / '.'  { return '' }
+//sep_capa = '.' { return '' }
 
 comentado = ('_'[^ .]) { return '' }
 otras_cosas = .
-ignorar = '##onomatopeya' / '\n' / comentado / otras_cosas { return '' }
+ignorar = '\n' / comentado / otras_cosas { return '' }
 entero = n:[0-9]+ { return n.join('') }

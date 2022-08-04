@@ -50,6 +50,7 @@ El código del JSoLang Onomatopeya está [aquí](./onomatopeya.peg).
 	_ritmo_aumentado
 	+ ++ +++
 	- -- ---
+
 	_ritmo_negativo
 
 	_samples_sonoros
@@ -79,7 +80,7 @@ Esta banco de samples con onomatopeyas asociadas. Debe importarse desde la conso
 
 	##onomatopeya
 	(((())))))
-	2tink2 3tink4 == pop POP1 2pop2 3=
+	2tink2 3shii4 == zick POP1 2pop2 3=
 	><<<>><<<<>>>>>>
 	H!
 
