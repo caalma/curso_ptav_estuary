@@ -33,25 +33,32 @@ El código del JSoLang Onomatopeya está [aquí](./onomatopeya.peg).
 	##onomatopeya
 
 	_silenciar
-	shh!
+	h!
+	H!
 
-	_volumen
+	_calculo_de_volumen
 	( (( (((
 	) )) )))
 
-	_paneo
+	_calculo_de_paneo
 	< << <<<
 	> >> >>>
 
-	_duracion_del_ciclo
+	_aceleración_del_ciclo
 	/2 /3
+
+	_ralentización_del_ciclo
 	*2 *3
 
-	_ritmo_aumentado
+	_calculo_de_ritmo
 	+ ++ +++
 	- -- ---
 
-	_ritmo_negativo
+	_ritmo_nulo
+	-
+
+	_ritmo_inverso
+	-- --- ----
 
 	_samples_sonoros
 	aahh arg auu baaa bbbddd beep biiubiuu biukbuik blublu braam bruubrr chuinn
@@ -61,7 +68,6 @@ El código del JSoLang Onomatopeya está [aquí](./onomatopeya.peg).
 	snrrrss srisisi tak tang tictac tilintilin tinb tink tinkunbin tinsh tirariru
 	tiruriruin tling tomtom tonb tonk toomm trikint tritiing triuuii trraass
 	trritrri trtrtrtr tuk tulinnn turip tuum uiiuuu uops uow yuayua zick zizizizi
-
 
 	_sample_silencio
 	=
@@ -83,6 +89,12 @@ Esta banco de samples con onomatopeyas asociadas. Debe importarse desde la conso
 	2tink4 2zick 4=  tonb4 POP1 2Pop2 3Chukun =
 	><<<>><<<<>>>>>>
 	_H!
+
+
+## Falta
+
++ Implementar separación de capas.
+
 
 ## Créditos
 Los audios fueron obtenidos de https://pixabay.com/sound-effects/ y editados utilizando Audacity.
