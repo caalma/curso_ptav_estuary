@@ -1,28 +1,60 @@
 # PEGjs
 
+> ACLARACIÓN:
+> + Este contenido está en construcción. Cualquier sugerencia será bienvenida.
+
+
 Librería javascript desarrollada para parsear textos.
 Originalmente creado por David Majda.
 Actualmente mantenida bajo el nombre de _peggyjs_ por Joe Hildebrand.
 
-
-## Documentación oficial
+## Referencias
 
 + https://pegjs.org
 + https://peggyjs.org
 
+## Documentación
 
-## Ejemplos
+### Estructura
+La estructura del parser consta de dos bloques:
+
+1. variables y funciones javascript
+2. reglas del lenguaje
+
+El orde de los bloques es estrictamente ese. Pero el primer bloque es opcional pudiendo desarrollarse el parser sin utilizar funciones y variables de javascript extras.
+
+### Bloque javascript
+
+El bloque javascript contendrá todas las funciones y variables que necesitemos para el parser. Todos esos elementos serán accesibles desde el bloque de retorno o devolución de valor ubicado, opcionalmente, en cada una de las reglas.
+
+### Reglas
+
+Las reglas consisten en variables, con una sintaxis similar a la utilizada en javascript. Estas variables funcionarán como símbolos para segmentar los patrones que queramos reconocer en el texto que interpretemos con el parser.
+
+Cada regla consta de un nombre, un signo igual, uno o varios patrones y un bloque de salida o devolución de resultado. Este último bloque es opcional y su contenido es código javascript. Un ejemplo de esa estructura seria:
+
+	color = 'rojo' { return 'https://es.wikipedia.org/wiki/Rojo' }
+
+
+
+[ ... ]
+
+
+
+
+## Ejemplos comentados
 
 Estos ejemplos pueden probarse directamente desde https://pegjs.org/online o https://peggyjs.org/online .
 
 
 ### Estructura básica
 
+
 #### Reglas básicas
 
-	// la regla inicializadora es la primera en aparecer
-	// normalmente debería contener una lista de posibles candidatos inicializadores de frase.
-	// para ello deben separarse las reglas con la '/' que simboliza al 'or'
+La regla inicializadora es la primera en aparecer.
+Normalmente debería contener una lista de posibles candidatos inicializadores de frase. Para ello deben separarse las reglas con la '/' que simboliza al 'or' lógico.
+
 	inicializadora = simbolo_1 / simbolo_espacio / simbolo_a1 / simbolo_a2
 	simbolo_espacio = '-'
 	simbolo_1 = "aca" { return "en este lugar" }
@@ -48,7 +80,7 @@ Estos ejemplos pueden probarse directamente desde https://pegjs.org/online o htt
 	letras_expandidas_y_numeros = ([A-z0-9] / letras_especiales)*
 	letras_especiales = 'ñ'i / 'á'i / 'é'i / 'í'i / 'ó'i / 'ú'i
 
-#### Reconocimiento basico
+#### Reconocimiento básico
 
 	{
 		// acá se agregan funciones y variables de entorno
@@ -106,7 +138,7 @@ Estos ejemplos pueden probarse directamente desde https://pegjs.org/online o htt
 	punto = '.'
 	ignorar = '\n' { return '' }
 
-#### Reconocer url básica
+#### Reconocer url mínima
 
 	url = u:(protocolo dominios ruta) { return u.join('') }
 	ruta = r:(sepU pal?)+ { return r.map((v)=>{ return v.join('')} ).join('') }
@@ -134,7 +166,7 @@ Estos ejemplos pueden probarse directamente desde https://pegjs.org/online o htt
 	ignorar = s:(.+) { return s.join('') }
 
 
-## Dar formato
+### Dar formato
 
 Intercalar texto con otros signos
 
@@ -158,7 +190,7 @@ Número siguiente
 
 
 
-## Aplicar contadores, numeradores, clasificadores
+### Aplicar contadores, numeradores, clasificadores
 
 #### Contador como función global
 
