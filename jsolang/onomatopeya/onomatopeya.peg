@@ -1,108 +1,129 @@
 ##JSoLang onomatopeya
 
 {
-    // variables y funciones de entorno
-
-    var dat = {'inst':[], 'ritm':[], 'fxizq':[], 'fxder':[]};
-    var ritmos = {
-	'lento': 1,
-	'rapido': 1,
-	'normal': 1
+    let dat = {
+    	'soni':[[]],
+        'ritm':[[]],
+        'fxiz':[[]],
+        'fxde':[[]],
     };
 
-    var fx_izquierda = {
-	'/2': 'slow 3 $',
-	'*2': 'fast 3 $',
-    };
+    let fx_izquierda = {};
 
-    var fx_derecha = {
+    let fx_derecha = {
 	'h!': 'silence',
     };
 
-    var ritmo = {'aum': 0, 'dis': 0};
-    var rit_a = function (){ ritmo['aum'] += 1; }
-    var rit_d = function (){ ritmo['dis'] += 1; }
+    let silenciar_todo = false;
 
-    var paneo = {'izq': 0, 'der': 0};
-    var pan_i = function (){ paneo['izq'] += 0.2; }
-    var pan_d = function (){ paneo['der'] += 0.2; }
+    let ritmo = { 'aum': [0], 'dis': [0] };
+    const rit_a = () => { ritmo['aum'][capa_actual] += 1 },
+	  rit_d = () => { ritmo['dis'][capa_actual] += 1 };
 
-    var volumen = {'aum': 0, 'dis': 0};
-    var vol_a = function (){ volumen['aum'] += 0.2; }
-    var vol_d = function (){ volumen['dis'] += 0.2; }
+    let paneo = { 'izq': [0], 'der': [0] };
+    const pan_i = () => { paneo['izq'][capa_actual] += 0.1 },
+	  pan_d = () => { paneo['der'][capa_actual] += 0.1 };
 
-    var agr = function(v, g){
-	dat[g].push(v)
+    let volumen = { 'aum': [0], 'dis': [0] };
+    const vol_a = () => { volumen['aum'][capa_actual] += 0.1 },
+	  vol_d = () => { volumen['dis'][capa_actual] += 0.1 };
+
+    const agr = (v, g) => { dat[g][capa_actual].push(v) };
+
+    let capa_actual = 0;
+    const nueva_capa = () => {
+        ['soni', 'ritm', 'fxiz', 'fxde'].map((k)=>{ dat[k].push([]) });
+        ['aum', 'dis'].map((k)=>{ ritmo[k].push(0) });
+        ['izq', 'der'].map((k)=>{ paneo[k].push(0) });
+        ['aum', 'dis'].map((k)=>{ volumen[k].push(0) });
+        capa_actual += 1
     }
 
-    var res = function(){
-	var r_inst = [],
-            r_fxizq = [],
-            r_fxder = [];
-	var r_ritm = '';
-	var p, n, m, i = '';
-	for(i in dat['inst']){
-	    p = dat['inst'][i][0].toLowerCase();
-        p = p === '=' ? '~' : p;
-	    n = dat['inst'][i][1];
-    	n = n.length == 0 ? '' : ':' + n;
-        m = dat['inst'][i][2];
-    	m = m.length == 0 ? '' : '*' + m;
-	    r_inst.push(p + n + m);
+    const generar_capa = (ic) => {
+	let r_soni = [],
+            r_fxiz = [],
+            r_fxde = [],
+	    r_ritm = 1 + ritmo['aum'][ic] - ritmo['dis'][ic],
+	    r_paneo = (0.5 + paneo['der'][ic] -  paneo['izq'][ic]).toFixed(2),
+	    r_volumen = (1 + volumen['aum'][ic] - volumen['dis'][ic]).toFixed(2),
+	    i = '',
+	    p, n, m, ui, ud;
+
+	for(i in dat['soni'][ic]){
+	    p = dat['soni'][ic][i][0];
+            p = p === '=' ? '~' : p.toLowerCase();
+	    n = dat['soni'][ic][i][1];
+    	    n = n.length == 0 ? '' : ':' + n;
+            m = dat['soni'][ic][i][2];
+    	    m = m.length == 0 ? '' : '*' + m;
+	    r_soni.push(p + n + m);
 	}
 
-	var r_ritm = 1 + ritmo['aum'] - ritmo['dis'];
-
-	if(dat['fxizq'].length === 0){
-    	    r_fxizq = [];
+	if(dat['fxiz'][ic].length === 0){
+    	    r_fxiz = [];
 	}else{
- 	    for(i in dat['fxizq']){
-      		p = dat['fxizq'][i];
+ 	    for(i in dat['fxiz'][ic]){
+      		p = dat['fxiz'][ic][i];
 		if( p.startsWith('/')){
-        	p = p.replace('/', 'fast ')
+        	    p = p.replace('/', 'fast ')
 		}else if ( p.startsWith('*')){
 		    p = p.replace('*', 'slow ')
 		}
-       		r_fxizq.push(p);
+       		r_fxiz.push(p);
 	    }
 	}
 
-	if(dat['fxder'].length === 0){
-    	    r_fxder = [];
+	if(dat['fxde'][ic].length === 0){
+    	    r_fxde = [];
 	}else{
- 	    for(i in dat['fxder']){
-      		p = dat['fxder'][i].toLowerCase();
-       		r_fxder.push(fx_derecha[p]);
+ 	    for(i in dat['fxde'][ic]){
+      		p = dat['fxde'][ic][i].toLowerCase();
+       		r_fxde.push(fx_derecha[p]);
 	    }
 	}
-	r_fxder.push('pan ('+ (paneo['der'] -  paneo['izq']).toFixed(2) + ')');
-	r_fxder.push('gain ('+ (1 + volumen['aum'] - volumen['dis']).toFixed(2) + ')');
 
-    var u_i = r_fxizq.length === 0 ? '' : ' $ ';
-    var u_d = r_fxder.length === 0 ? '' : ' # ';
+	r_fxde.push(`pan (${r_paneo})`);
+	r_fxde.push(`gain (${r_volumen})`);
 
+	ui = r_fxiz.length === 0 ? '' : ' $ ';
+	ud = r_fxde.length === 0 ? '' : ' # ';
 
-	return '##miniTidal\n'
-            + r_fxizq.join(' $ ')
-    	    + u_i
+	return 	r_fxiz.join(' $ ')
+    	    + ui
             + 's "['
-            + r_inst.join(' ')
+            + r_soni.join(' ')
             + ']*' + r_ritm +'"'
-            + u_d
-            + r_fxder.join(' # ')
+            + ud
+            + r_fxde.join(' # ')
         ;
+    }
+
+    const resultado = () => {
+    	let capas = [],
+	    st = silenciar_todo ? ' # silence' : '',
+	    lenguaje = '##minitidal\n',
+            i = 0;
+
+        for(i; i <= capa_actual; i++){
+            capas.push(generar_capa(i))
+        }
+
+	return lenguaje
+            + 'stack['
+            + capas.join(',')
+            + ']'
+            + st;
     }
 }
 
-// reglas de lenguaje
 
-composicion = capa { return res() }
-
-capa = (frase / ritmo / fxizq / fxder / paneo / volumen
-	       / ignorar)*
+capa = (frase / ritmo / fxizq / fxder
+       / paneo / volumen / sep_capa
+       / silenciar_todo / ignorar )*
+       { return resultado() }
 
 frase = m:(entero*)s:( silencio / sonido )n:(entero*)
-              { agr([s, n, m], 'inst') }
+        { agr([s, n, m], 'soni') }
 
 sonido = 'aahh'i / 'arg'i / 'auu'i / 'baaa'i / 'bbbddd'i / 'beep'i / 'biiubiuu'i / 'biukbuik'i
          / 'blublu'i / 'braam'i / 'bruubrr'i / 'chuinn'i / 'chukun'i / 'clik'i / 'cocoococoo'i
@@ -122,14 +143,12 @@ ritmo = (rit_aum / rit_dis)
 rit_aum = s:'+' { return rit_a() }
 rit_dis = s:'-' { return rit_d() }
 
-fxizq = s:( m_dur )
-{ agr(s, 'fxizq') }
+fxizq = s:( m_dur ) { agr(s, 'fxiz') }
 
 m_dur = s:(s_dur entero) { return s.join('') }
 s_dur = ('/' / '*')
 
-fxder = s:('H!'i )
-{ agr(s, 'fxder')}
+fxder = s:('H!'i ) { agr(s, 'fxde')}
 
 volumen = (vol_aum / vol_dis)
 vol_aum = s:')' { return vol_a() }
@@ -139,7 +158,9 @@ paneo = (pan_izq / pan_der)
 pan_izq = s:'<' { return pan_i() }
 pan_der = s:'>' { return pan_d() }
 
-//sep_capa = '.' { return '' }
+silenciar_todo = s:('0!'i ) { silenciar_todo = true }
+
+sep_capa = '.' { nueva_capa() }
 
 comentado = ('_'[^ .]) { return '' }
 otras_cosas = .

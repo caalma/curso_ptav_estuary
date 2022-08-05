@@ -32,15 +32,18 @@ El código del JSoLang Onomatopeya está [aquí](./onomatopeya.peg).
 
 	##onomatopeya
 
-	_silenciar
+	_silenciar_capa
 	h!
 	H!
+
+	_silenciar_todo
+	0!
 
 	_calculo_de_volumen
 	( (( (((
 	) )) )))
 
-	_calculo_de_paneo
+	_cálculo_de_paneo
 	< << <<<
 	> >> >>>
 
@@ -50,7 +53,7 @@ El código del JSoLang Onomatopeya está [aquí](./onomatopeya.peg).
 	_ralentización_del_ciclo
 	*2 *3
 
-	_calculo_de_ritmo
+	_cálculo_de_ritmo
 	+ ++ +++
 	- -- ---
 
@@ -72,8 +75,8 @@ El código del JSoLang Onomatopeya está [aquí](./onomatopeya.peg).
 	_sample_silencio
 	=
 
-	_separador_de_capas FALTA
-	;
+	_separador_de_capas
+	.
 
 ## Requerimientos
 
@@ -84,16 +87,59 @@ Esta banco de samples con onomatopeyas asociadas. Debe importarse desde la conso
 
 ## Ejemplo de uso
 
+Una capa:
+
 	##onomatopeya
 	)))(((()))
 	2tink4 2zick 4=  tonb4 POP1 2Pop2 3Chukun =
 	><<<>><<<<>>>>>>
 	_H!
 
+Varias capas:
 
-## Falta
+	##onomatopeya
+	2tink 3= 3tuk1  tuum <<<>>>> .
+	*5 auu3 grugrr _h! .
+	/3 tictac2 )) <<<<<<
+	_0!
 
-+ Implementar separación de capas.
+Varias capas y comentado:
+
+	##onomatopeya
+
+	estos son los sonidos de la primer capa
+	2tink 3= 3tuk1  tuum
+
+	acá se calcula el paneo de esta capa
+	<<<>>>>
+
+	los puntos separan las capas
+	.
+
+	esto aligera 5 veces el patrón
+	*5
+
+	otro patrón de sonidos
+	auu3 grugrr
+
+	esto es un silencio de capa comentado
+	_h!
+
+	acá se calcula el volumen de esta capa
+	()((
+
+
+	separamos otra capa
+	.
+
+	con esto ralentizamos 3 veces la capa
+	/3
+
+	tictac2 )) <<<<<<
+
+	este es un silencio total comentado,
+	para silenciar todo quitarle el guión bajo
+	_0!
 
 
 ## Créditos
