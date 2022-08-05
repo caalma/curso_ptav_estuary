@@ -4,7 +4,7 @@
 > ACLARACIÓN: Actualmente no están todas las características implementadas.
 
 
-**`Textapita`** escribe textos utilizando loops de videos.
+**Textapita** escribe textos utilizando loops de videos.
 
 Este JSoLang, para utilizar con Estuary, utiliza CineCer0 como lenguaje destino.
 
@@ -34,7 +34,7 @@ Modificadores de composición:
 
 Cualquier otro signo escrito será ignorado por el parser.
 
-El código del JSoLang Textapita está [aquí](./textapita.peg).
+El código del JSoLang **Textapita** está [aquí](./textapita.peg).
 
 
 ## Ejemplos:
