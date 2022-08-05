@@ -15,7 +15,7 @@ Entre los modificadores incluidos están el volumen, paneo, duración del ciclo,
 
 La posición de los modificadores es indistinta pudiendo estar entremezcladas con los propios samples.
 
-Algunos modificadores, como el volumen y el paneo sonacumulativos.
+Algunos modificadores, como el volumen y el paneo son acumulativos.
 
 El código del JSoLang **Onomatopeya** está [aquí](./onomatopeya.peg).
 
