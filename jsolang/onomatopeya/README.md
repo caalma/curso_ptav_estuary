@@ -1,10 +1,7 @@
 # JSoLang Onomatopeya
 
-> ACLARACIÓN:
-> + Actualmente no están todas las características implementadas.
-> + Los samples no están editados.
 
-`Onomatopeya` es un JSoLang con fines lúdicos.
+**Onomatopeya** es un JSoLang con fines lúdicos.
 
 Este JSoLang, para utilizar con Estuary, utiliza MiniTidal como lenguaje destino.
 
@@ -20,7 +17,7 @@ La posición de los modificadores es indistinta pudiendo estar entremezcladas co
 
 Algunos modificadores, como el volumen y el paneo sonacumulativos.
 
-El código del JSoLang Onomatopeya está [aquí](./onomatopeya.peg).
+El código del JSoLang **Onomatopeya** está [aquí](./onomatopeya.peg).
 
 
 ## Características
