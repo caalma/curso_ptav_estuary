@@ -21,15 +21,15 @@ Los modificacores son aplicados a cada línea individualmente.
 
 Modificadores de animación:
 
-+ **ondula-y**
-+ **ondula-x**
-+ **giratorias**
++ ondula-y
++ ondula-x
++ giratorias
 
 Modificadores de composición:
 
-+ **izquierda**
-+ **centro**
-+ **derecha**
++ izquierda
++ centro
++ derecha
 
 
 Cualquier otro signo escrito será ignorado por el parser.
