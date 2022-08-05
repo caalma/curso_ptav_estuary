@@ -20,50 +20,62 @@ La posición de los modificadores es indistinta pudiendo estar entremezcladas co
 
 Algunos modificadores, como el volumen y el paneo sonacumulativos.
 
-La llamada a los audios no distingue entre mayúsculas y minúsculas.
-Pero cualquier otra palabra o signo que no coincida con los instrumentos o los modificadores directamente será ignorada pudiendo estar presente por caracter estético del texto.
-
-Al llamar a los audios puede agregarse de forma sufija y posfija. El entero sufijo actua como multiplicador del audio y el posfijo como index selector dentro del banco de audio solicitado.
-
 El código del JSoLang Onomatopeya está [aquí](./onomatopeya.peg).
 
 
 ## Características
 
-	##onomatopeya
+El guión bajo '_' comenta las palabras anulándolas si fueran funcionales.
 
-	_silenciar_capa
+### Silenciar
+
+Capa
+
 	h!
 	H!
 
-	_silenciar_todo
+Todo
+
 	0!
 
-	_calculo_de_volumen
+### Cálculo de volumen
+
 	( (( (((
 	) )) )))
 
-	_cálculo_de_paneo
+### Cálculo de paneo
+
 	< << <<<
 	> >> >>>
 
-	_aceleración_del_ciclo
-	/2 /3
+### Cálculo de ritmo
 
-	_ralentización_del_ciclo
-	*2 *3
-
-	_cálculo_de_ritmo
 	+ ++ +++
 	- -- ---
 
-	_ritmo_nulo
+Ritmo nulo
+
 	-
 
-	_ritmo_inverso
+Ritmo inverso
+
 	-- --- ----
 
-	_samples_sonoros
+### Aceleración del ciclo
+
+	/2 /3
+
+### Ralentización del ciclo
+
+	*2 *3
+
+### Samples sonoros
+
+La llamada a los audios no distingue entre mayúsculas y minúsculas.
+Pero cualquier otra palabra o signo que no coincida con los instrumentos o los modificadores directamente será ignorada pudiendo estar presente por caracter estético del texto.
+
+Al llamar a los audios puede agregarse de forma sufija y posfija. El entero sufijo actua como multiplicador del audio y el posfijo como index selector dentro del banco de audio solicitado.
+
 	aahh arg auu baaa bbbddd beep biiubiuu biukbuik blublu braam bruubrr chuinn
 	chukun clik cocoococoo crack crash crish cuak dindundin fiui fuifuifuii fuuhh
 	gluglu gruar grugrr guauguau guiin hiiee iaaaa inkoon iuiuiuiu iuueu ja je jiik
@@ -72,17 +84,24 @@ El código del JSoLang Onomatopeya está [aquí](./onomatopeya.peg).
 	tiruriruin tling tomtom tonb tonk toomm trikint tritiing triuuii trraass
 	trritrri trtrtrtr tuk tulinnn turip tuum uiiuuu uops uow yuayua zick zizizizi
 
-	_sample_silencio
+### Sample silencio
+
+Este sample solamente acepta el prefijo multiplicador.
+
 	=
 
-	_separador_de_capas
+### Separador de capas
+
 	.
+
+
 
 ## Requerimientos
 
-Esta banco de samples con onomatopeyas asociadas. Debe importarse desde la consola de Estuary con el siguiente comando:
+Este banco de samples con onomatopeyas las asociadas. Debe importarse desde la consola de Estuary con el siguiente comando:
 
 	!reslist "https://caalma.github.io/curso_ptav_estuary/jsolang/onomatopeya/audios/samples.json"
+
 
 
 ## Ejemplo de uso
@@ -127,7 +146,6 @@ Varias capas y comentado:
 
 	acá se calcula el volumen de esta capa
 	()((
-
 
 	separamos otra capa
 	.
