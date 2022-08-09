@@ -1,152 +1,302 @@
 [
     {
         "type": "audio",
-        "bank": "U",
+        "bank": "um",
         "n": 0,
-        "url": "U/000_tightstabb.wav"
+        "url": "um/000_tightstabb.mp3"
     },
     {
         "type": "audio",
-        "bank": "U",
+        "bank": "um",
         "n": 1,
-        "url": "U/001_tightstabblowoct.wav"
+        "url": "um/001_tightstabblowoct.mp3"
     },
     {
         "type": "audio",
-        "bank": "U",
+        "bank": "um",
         "n": 2,
-        "url": "U/002_tightstabe.wav"
+        "url": "um/002_tightstabe.mp3"
     },
     {
         "type": "audio",
-        "bank": "U",
+        "bank": "um",
         "n": 3,
-        "url": "U/003_tightstabg.wav"
+        "url": "um/003_tightstabg.mp3"
     },
     {
         "type": "audio",
-        "bank": "U",
+        "bank": "um",
         "n": 4,
-        "url": "U/010_trumptightstabschord.wav"
+        "url": "um/010_trumptightstabschord.mp3"
     },
     {
         "type": "audio",
-        "bank": "G",
+        "bank": "u",
         "n": 0,
-        "url": "G/000_0.wav"
+        "url": "u/000_tightstabb.wav"
     },
     {
         "type": "audio",
-        "bank": "G",
+        "bank": "u",
         "n": 1,
-        "url": "G/002_2.wav"
+        "url": "u/001_tightstabblowoct.wav"
     },
     {
         "type": "audio",
-        "bank": "G",
+        "bank": "u",
         "n": 2,
-        "url": "G/004_4.wav"
+        "url": "u/002_tightstabe.wav"
     },
     {
         "type": "audio",
-        "bank": "G",
+        "bank": "u",
         "n": 3,
-        "url": "G/006_6.wav"
+        "url": "u/003_tightstabg.wav"
     },
     {
         "type": "audio",
-        "bank": "G",
+        "bank": "u",
         "n": 4,
-        "url": "G/008_8.wav"
+        "url": "u/010_trumptightstabschord.wav"
     },
     {
         "type": "audio",
-        "bank": "A",
+        "bank": "t",
         "n": 0,
-        "url": "A/000_tink1.wav"
+        "url": "t/lc00.wav"
     },
     {
         "type": "audio",
-        "bank": "A",
+        "bank": "t",
         "n": 1,
-        "url": "A/001_tink2.wav"
+        "url": "t/lc10.wav"
     },
     {
         "type": "audio",
-        "bank": "A",
+        "bank": "t",
         "n": 2,
-        "url": "A/002_tink3.wav"
+        "url": "t/lc25.wav"
     },
     {
         "type": "audio",
-        "bank": "A",
+        "bank": "t",
         "n": 3,
-        "url": "A/003_tink4.wav"
+        "url": "t/lc50.wav"
     },
     {
         "type": "audio",
-        "bank": "A",
+        "bank": "t",
         "n": 4,
-        "url": "A/004_tink5.wav"
+        "url": "t/lc75.wav"
     },
     {
         "type": "audio",
-        "bank": "T",
+        "bank": "am",
         "n": 0,
-        "url": "T/lc00.wav"
+        "url": "am/000_tink1.mp3"
     },
     {
         "type": "audio",
-        "bank": "T",
+        "bank": "am",
         "n": 1,
-        "url": "T/lc10.wav"
+        "url": "am/001_tink2.mp3"
     },
     {
         "type": "audio",
-        "bank": "T",
+        "bank": "am",
         "n": 2,
-        "url": "T/lc25.wav"
+        "url": "am/002_tink3.mp3"
     },
     {
         "type": "audio",
-        "bank": "T",
+        "bank": "am",
         "n": 3,
-        "url": "T/lc50.wav"
+        "url": "am/003_tink4.mp3"
     },
     {
         "type": "audio",
-        "bank": "T",
+        "bank": "am",
         "n": 4,
-        "url": "T/lc75.wav"
+        "url": "am/004_tink5.mp3"
     },
     {
         "type": "audio",
-        "bank": "C",
+        "bank": "tm",
         "n": 0,
-        "url": "C/mt00.wav"
+        "url": "tm/lc00.mp3"
     },
     {
         "type": "audio",
-        "bank": "C",
+        "bank": "tm",
         "n": 1,
-        "url": "C/mt10.wav"
+        "url": "tm/lc10.mp3"
     },
     {
         "type": "audio",
-        "bank": "C",
+        "bank": "tm",
         "n": 2,
-        "url": "C/mt25.wav"
+        "url": "tm/lc25.mp3"
     },
     {
         "type": "audio",
-        "bank": "C",
+        "bank": "tm",
         "n": 3,
-        "url": "C/mt50.wav"
+        "url": "tm/lc50.mp3"
     },
     {
         "type": "audio",
-        "bank": "C",
+        "bank": "tm",
         "n": 4,
-        "url": "C/mt75.wav"
+        "url": "tm/lc75.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "a",
+        "n": 0,
+        "url": "a/000_tink1.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "a",
+        "n": 1,
+        "url": "a/001_tink2.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "a",
+        "n": 2,
+        "url": "a/002_tink3.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "a",
+        "n": 3,
+        "url": "a/003_tink4.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "a",
+        "n": 4,
+        "url": "a/004_tink5.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "g",
+        "n": 0,
+        "url": "g/000_0.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "g",
+        "n": 1,
+        "url": "g/002_2.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "g",
+        "n": 2,
+        "url": "g/004_4.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "g",
+        "n": 3,
+        "url": "g/006_6.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "g",
+        "n": 4,
+        "url": "g/008_8.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "cm",
+        "n": 0,
+        "url": "cm/mt00.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "cm",
+        "n": 1,
+        "url": "cm/mt10.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "cm",
+        "n": 2,
+        "url": "cm/mt25.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "cm",
+        "n": 3,
+        "url": "cm/mt50.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "cm",
+        "n": 4,
+        "url": "cm/mt75.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "c",
+        "n": 0,
+        "url": "c/mt00.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "c",
+        "n": 1,
+        "url": "c/mt10.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "c",
+        "n": 2,
+        "url": "c/mt25.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "c",
+        "n": 3,
+        "url": "c/mt50.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "c",
+        "n": 4,
+        "url": "c/mt75.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "gm",
+        "n": 0,
+        "url": "gm/000_0.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "gm",
+        "n": 1,
+        "url": "gm/002_2.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "gm",
+        "n": 2,
+        "url": "gm/004_4.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "gm",
+        "n": 3,
+        "url": "gm/006_6.mp3"
+    },
+    {
+        "type": "audio",
+        "bank": "gm",
+        "n": 4,
+        "url": "gm/008_8.mp3"
     }
 ]
