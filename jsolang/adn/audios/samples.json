@@ -1,0 +1,92 @@
+[
+    {
+        "type": "audio",
+        "bank": "u",
+        "n": 0,
+        "url": "u/000_tightstabb.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "u",
+        "n": 1,
+        "url": "u/001_tightstabblowoct.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "u",
+        "n": 2,
+        "url": "u/002_tightstabe.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "u",
+        "n": 3,
+        "url": "u/003_tightstabg.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "u",
+        "n": 4,
+        "url": "u/010_trumptightstabschord.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "a",
+        "n": 0,
+        "url": "a/000_tink1.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "a",
+        "n": 1,
+        "url": "a/001_tink2.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "a",
+        "n": 2,
+        "url": "a/002_tink3.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "a",
+        "n": 3,
+        "url": "a/003_tink4.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "a",
+        "n": 4,
+        "url": "a/004_tink5.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "g",
+        "n": 0,
+        "url": "g/000_0.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "g",
+        "n": 1,
+        "url": "g/002_2.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "g",
+        "n": 2,
+        "url": "g/004_4.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "g",
+        "n": 3,
+        "url": "g/006_6.wav"
+    },
+    {
+        "type": "audio",
+        "bank": "g",
+        "n": 4,
+        "url": "g/008_8.wav"
+    }
+]
